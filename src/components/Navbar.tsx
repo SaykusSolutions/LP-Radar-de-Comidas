@@ -8,12 +8,16 @@ export const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 w-full max-w-full bg-[#F6F8F3]/95 backdrop-blur-md border-b border-[#E3E9DF] transition-all">
       <div className="max-w-6xl mx-auto px-3.5 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2 sm:gap-4">
         
-        {/* Brand wordmark */}
+        {/* Brand wordmark with official logo */}
         <a 
           href="#hero" 
-          className="flex items-center gap-1.5 sm:gap-2 group shrink min-w-0"
+          className="flex items-center gap-2 sm:gap-2.5 group shrink min-w-0"
         >
-          <span className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full bg-[#D97757] shrink-0" />
+          <img 
+            src="/assets/aistudio/icon-512x512_8a71b860.png" 
+            alt="Logo Radar de Comidas" 
+            className="w-6 h-6 sm:w-8 sm:h-8 object-contain shrink-0 group-hover:scale-105 transition-transform"
+          />
           <span className="text-xs sm:text-base font-black tracking-wider text-[#174C38] uppercase truncate group-hover:text-[#113829] transition-colors">
             RADAR DE COMIDAS
           </span>

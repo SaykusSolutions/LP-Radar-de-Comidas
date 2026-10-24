@@ -7,8 +7,12 @@ export const Footer: React.FC = () => {
     <footer className="w-full max-w-full overflow-hidden bg-[#0D2B20] text-emerald-100/70 py-10 sm:py-12 border-t border-[#092017]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-5 sm:gap-6 text-center sm:text-left">
         <div>
-          <div className="flex items-center justify-center sm:justify-start gap-2 mb-1">
-            <span className="w-2 h-2 rounded-full bg-[#D97757]" />
+          <div className="flex items-center justify-center sm:justify-start gap-2.5 mb-1.5">
+            <img 
+              src="/assets/aistudio/icon-512x512_8a71b860.png" 
+              alt="Logo Radar de Comidas" 
+              className="w-7 h-7 object-contain shrink-0"
+            />
             <p className="text-sm sm:text-base font-black tracking-wider text-white uppercase">
               RADAR DE COMIDAS
             </p>

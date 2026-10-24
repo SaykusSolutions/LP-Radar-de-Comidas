@@ -337,7 +337,11 @@ export const ComoFuncionaSection: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 pb-4 sm:pb-6 mb-4 sm:mb-6 border-b border-[#E0E7DC]">
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <span className="w-2 h-2 rounded-full bg-[#D97757] shrink-0" />
+                <img 
+                  src="/assets/aistudio/icon-512x512_8a71b860.png" 
+                  alt="Icono Radar de Comidas" 
+                  className="w-4 h-4 object-contain shrink-0"
+                />
                 <span className="text-[#174C38] font-black text-[11px] sm:text-xs uppercase tracking-widest">
                   Simulación Dinámica en Tiempo Real
                 </span>

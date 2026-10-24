@@ -13,9 +13,13 @@ export const HeroSection: React.FC = () => {
           {/* Left Column: Copy & Direct Conversion Action */}
           <div className="lg:col-span-7 flex flex-col items-start text-left w-full max-w-full">
             
-            {/* App Eyebrow with coral dot */}
+            {/* App Eyebrow with official logo */}
             <div className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-black text-[#174C38] tracking-wider uppercase mb-3 sm:mb-4 bg-white/90 border border-[#E3E9DF] px-3.5 py-1.5 rounded-full shadow-xs max-w-full">
-              <span className="w-2 h-2 rounded-full bg-[#D97757] shrink-0" />
+              <img 
+                src="/assets/aistudio/icon-512x512_8a71b860.png" 
+                alt="Icono Radar de Comidas" 
+                className="w-4 h-4 object-contain shrink-0"
+              />
               <span className="truncate">RADAR DE COMIDAS · TU ASISTENTE DE HOY</span>
             </div>
 
