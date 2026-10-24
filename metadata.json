@@ -1,0 +1,6 @@
+{
+  "name": "Radar de Comidas - Decide qué comer sin volver a empezar de cero",
+  "description": "Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
