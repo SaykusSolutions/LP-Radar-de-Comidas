@@ -56,7 +56,7 @@ export const LoQuePuedesResolver: React.FC = () => {
           </p>
 
           <div className="text-3xl sm:text-6xl font-black tracking-tight text-white mb-5 sm:mb-6 tabular-nums">
-            11 USD
+            6 USD
           </div>
 
           <a

@@ -111,10 +111,10 @@ export const ResumenAccesoSection: React.FC = () => {
               Garantiza tu acceso por solo:
             </p>
             <div className="text-4xl sm:text-7xl font-black text-[#174C38] tracking-tight my-1 sm:my-2 tabular-nums">
-              USD 11
+              USD 6
             </div>
             <p className="text-[11px] sm:text-xs text-[#527263] font-bold">
-              Te ahorras $39 USD hoy (78% de descuento)
+              Te ahorras $44 USD hoy (88% de descuento)
             </p>
           </div>
 

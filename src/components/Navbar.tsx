@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
           >
             <span className="hidden sm:inline">Acceso Inmediato</span>
             <span className="sm:hidden">Acceso</span>
-            <span className="font-bold text-emerald-200">· $11 USD</span>
+            <span className="font-bold text-emerald-200">· $6 USD</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform shrink-0" />
           </a>
         </div>

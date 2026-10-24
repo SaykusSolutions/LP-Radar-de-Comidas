@@ -46,7 +46,7 @@ export const HeroSection: React.FC = () => {
                   POR APENAS
                 </span>
                 <span className="text-2xl sm:text-3xl font-black text-[#174C38] tabular-nums">
-                  11 USD
+                  6 USD
                 </span>
               </div>
 

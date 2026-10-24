@@ -37,7 +37,7 @@ export const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="hover:text-white transition-colors font-bold text-white underline decoration-[#D97757] decoration-2"
           >
-            Oferta $11 USD
+            Oferta $6 USD
           </a>
           <span aria-hidden="true" className="text-emerald-800">·</span>
           <a href="#faq" className="hover:text-white transition-colors">

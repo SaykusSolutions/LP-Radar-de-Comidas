@@ -518,7 +518,7 @@ export const ComoFuncionaSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#174C38] hover:bg-[#123C2C] text-white text-xs font-black px-4 py-2.5 rounded-full shadow-xs whitespace-nowrap cursor-pointer transition-all"
                 >
-                  <span>Acceso por $11 USD</span>
+                  <span>Acceso por $6 USD</span>
                   <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                 </a>
               </div>
