@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import fridgeFrictionImg from '../assets/images/fridge_friction_kitchen_1792819343931.jpg';
 
 export const BloqueoSection: React.FC = () => {
+  const [imgSrc, setImgSrc] = useState<string>(fridgeFrictionImg);
+
   return (
     <section className="relative w-full max-w-full overflow-hidden bg-[#EAF1E9] text-[#174C38] py-14 sm:py-24 border-b border-[#D8E3D6]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -10,9 +13,14 @@ export const BloqueoSection: React.FC = () => {
           <div className="lg:col-span-5 order-2 lg:order-1 w-full max-w-full">
             <div className="relative rounded-3xl overflow-hidden border border-[#D5E1D3] shadow-sm bg-white w-full">
               <img
-                src="/src/assets/images/fridge_friction_kitchen_1792819343931.jpg"
+                src={imgSrc}
                 alt="Mujer en la cocina abriendo la nevera para preparar comida"
-                referrerPolicy="no-referrer"
+                onError={() => {
+                  // Fallback for static hosting / GitHub pages / public assets directory
+                  if (imgSrc !== '/assets/images/fridge_friction_kitchen_1792819343931.jpg') {
+                    setImgSrc('/assets/images/fridge_friction_kitchen_1792819343931.jpg');
+                  }
+                }}
                 className="w-full aspect-[4/3] object-cover"
                 loading="lazy"
               />
