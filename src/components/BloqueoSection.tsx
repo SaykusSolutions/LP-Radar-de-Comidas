@@ -52,6 +52,15 @@ export const BloqueoSection: React.FC = () => {
               <p className="break-words">
                 Los menús cerrados no siempre consideran tus gustos, presupuesto o día real. No es falta de voluntad; muchas veces, el plan simplemente no encaja.
               </p>
+
+              {/* Neuromarketing Insight Callout */}
+              <div className="p-4 rounded-2xl bg-[#DFE9DE] border border-[#CCDCCD] text-xs sm:text-sm text-[#174C38] font-medium flex items-start gap-3">
+                <span className="text-lg leading-none shrink-0">🧠</span>
+                <div>
+                  <span className="font-black text-[#174C38] block mb-0.5">La ciencia de la fatiga por decisión:</span>
+                  <span>El cerebro gasta el 20% de tu energía diaria. Cuando tienes hambre y cansancio, exigirle crear un menú de la nada dispara la ansiedad. Radar de Comidas hace ese trabajo pesado por ti en 3 minutos.</span>
+                </div>
+              </div>
             </div>
 
           </div>

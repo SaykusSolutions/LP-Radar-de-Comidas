@@ -12,10 +12,14 @@ import { ResumenAccesoSection } from './components/ResumenAccesoSection';
 import { GarantiaSection } from './components/GarantiaSection';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
+import { SocialProofTicker } from './components/SocialProofTicker';
 
 export default function App() {
   return (
     <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#F6F8F3] text-[#174C38] flex flex-col font-['Montserrat',sans-serif] selection:bg-emerald-100 selection:text-[#174C38]">
+      {/* Notificación sutil de prueba social (psicología de validación) */}
+      <SocialProofTicker />
+
       {/* Única barra de navegación superior (fija, compacta y responsiva en celulares) */}
       <Navbar />
 

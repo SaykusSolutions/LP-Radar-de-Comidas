@@ -42,17 +42,17 @@ export const Navbar: React.FC = () => {
           </a>
         </nav>
 
-        {/* Mobile-Friendly CTA Action (never overflows) */}
+        {/* Mobile-Friendly CTA Action (never overflows, high visual contrast) */}
         <div className="flex items-center gap-2 shrink-0">
           <a
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-1.5 bg-[#174C38] hover:bg-[#123C2C] text-white font-extrabold text-xs sm:text-sm px-3 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-xs active:scale-[0.98] transition-all cursor-pointer whitespace-nowrap"
+            className="group inline-flex items-center gap-1.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-extrabold text-xs sm:text-sm px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-full shadow-sm hover:shadow-md active:scale-[0.98] transition-all cursor-pointer whitespace-nowrap"
           >
             <span className="hidden sm:inline">Acceso Inmediato</span>
             <span className="sm:hidden">Acceso</span>
-            <span className="font-bold text-emerald-200">· $6 USD</span>
+            <span className="font-black text-amber-200">· $6 USD</span>
             <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform shrink-0" />
           </a>
         </div>

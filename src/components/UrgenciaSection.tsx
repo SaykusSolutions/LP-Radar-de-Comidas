@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, Flame } from 'lucide-react';
+import { ArrowRight, Flame, ShieldCheck } from 'lucide-react';
+import { ScarcityCounter } from './ScarcityCounter';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q";
 
@@ -80,16 +81,26 @@ export const UrgenciaSection: React.FC = () => {
         </div>
 
         {/* Direct Hotmart Conversion Link */}
-        <div className="w-full">
+        <div className="w-full max-w-md mx-auto">
           <a
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#174C38] hover:bg-[#123C2C] text-white font-black text-sm sm:text-lg px-6 sm:px-12 py-3.5 sm:py-4 rounded-full shadow-md active:scale-[0.98] transition-all cursor-pointer"
+            className="w-full inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-lg px-8 py-4 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
             <span>Garantizar acceso por 6 USD</span>
-            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+            <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
+
+          {/* Contador de escasez dinámico */}
+          <div className="flex justify-center mt-3">
+            <ScarcityCounter />
+          </div>
+
+          <div className="mt-3 flex items-center justify-center gap-2 text-xs text-[#527263] font-medium">
+            <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+            <span>Pago único · Acceso inmediato a la app y 4 bonos</span>
+          </div>
         </div>
 
       </div>

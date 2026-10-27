@@ -45,28 +45,86 @@ export const LoQuePuedesResolver: React.FC = () => {
           ))}
         </div>
 
+        {/* Loss Aversion & Cognitive Comparison: Cost of Inaction vs Solution */}
+        <div className="grid md:grid-cols-2 gap-4 sm:gap-6 mb-10 sm:mb-14 w-full max-w-full">
+          {/* Inaction Cost */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-[#FFF7F5] border border-[#FCD9D1] text-[#7A271A]">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#D9532F]" />
+              <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-[#D9532F]">
+                Lo que pierdes sin una solución:
+              </span>
+            </div>
+            <ul className="space-y-2.5 text-xs sm:text-sm font-medium leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span className="text-[#D9532F] font-bold text-base leading-none">✕</span>
+                <span>$20 a $40 USD al mes en comida que se pudre en el fondo de la nevera.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#D9532F] font-bold text-base leading-none">✕</span>
+                <span>Hasta 45 minutos diarios de angustia mental y parálisis por decisión.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-[#D9532F] font-bold text-base leading-none">✕</span>
+                <span>Gastos imprevistos en pedidos a domicilio por pura falta de ideas rápidas.</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Solution Gains */}
+          <div className="p-5 sm:p-6 rounded-3xl bg-[#F0F7F2] border border-[#CDE5D5] text-[#174C38]">
+            <div className="flex items-center gap-2 mb-3">
+              <span className="w-2.5 h-2.5 rounded-full bg-emerald-600" />
+              <span className="text-xs sm:text-sm font-black uppercase tracking-wider text-emerald-800">
+                Lo que ganas hoy con Radar:
+              </span>
+            </div>
+            <ul className="space-y-2.5 text-xs sm:text-sm font-medium leading-relaxed">
+              <li className="flex items-start gap-2">
+                <span className="text-emerald-600 font-bold text-base leading-none">✓</span>
+                <span>Aprovechas el 100% de lo que compraste, ahorrando dinero desde el día 1.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-emerald-600 font-bold text-base leading-none">✓</span>
+                <span>3 comidas viables y deliciosas listas en tu pantalla en 3 minutos.</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-emerald-600 font-bold text-base leading-none">✓</span>
+                <span>Paz mental inmediata: cocinas rico, variado y sin presiones ni culpas.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
         {/* High Conversion Pricing Block with Warm Elegant Botanical Contrast */}
-        <div className="bg-[#174C38] text-white p-5 sm:p-10 rounded-3xl shadow-lg text-center w-full max-w-full">
+        <div className="bg-[#174C38] text-white p-5 sm:p-10 rounded-3xl shadow-xl text-center w-full max-w-full relative overflow-hidden">
+          {/* Subtle background glow */}
+          <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
+
           <p className="text-sm sm:text-lg font-medium text-emerald-200/80 line-through mb-1">
-            De 29 USD
+            Valor normal: De 29 USD
           </p>
           
-          <p className="text-xs sm:text-sm font-black uppercase tracking-widest text-[#F6F8F3] mb-1 sm:mb-2">
-            POR APENAS
-          </p>
+          <div className="inline-block px-3 py-1 rounded-full bg-emerald-950/70 border border-emerald-500/40 text-[11px] font-black uppercase tracking-widest text-emerald-200 mb-2">
+            OFERTA DE LANZAMIENTO · ACCESO VITALICIO
+          </div>
 
-          <div className="text-3xl sm:text-6xl font-black tracking-tight text-white mb-5 sm:mb-6 tabular-nums">
+          <div className="text-4xl sm:text-6xl font-black tracking-tight text-white mb-2 tabular-nums">
             6 USD
           </div>
+
+          <p className="text-xs sm:text-sm text-emerald-100/90 font-medium mb-6 max-w-md mx-auto">
+            Un único pago para siempre. Se paga solo la primera vez que salves ingredientes en tu cocina.
+          </p>
 
           <a
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white hover:bg-[#F6F8F3] text-[#174C38] font-black text-sm sm:text-lg px-6 sm:px-12 py-3.5 sm:py-4 rounded-full shadow-md active:scale-[0.98] transition-all cursor-pointer mb-2"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-lg px-8 sm:px-12 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/30 active:scale-[0.98] transition-all cursor-pointer mb-3 group"
           >
-            <span>Obtener acceso inmediato</span>
-            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-[#174C38] shrink-0" />
+            <span>Obtener acceso inmediato por $6 USD</span>
+            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-white shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 
           {/* Contador de escasez dinámico */}
@@ -81,6 +139,8 @@ export const LoQuePuedesResolver: React.FC = () => {
             </span>
             <span aria-hidden="true" className="hidden sm:inline text-emerald-400">·</span>
             <span>Acceso permanente</span>
+            <span aria-hidden="true" className="hidden sm:inline text-emerald-400">·</span>
+            <span>Garantía de 7 días</span>
           </div>
         </div>
 

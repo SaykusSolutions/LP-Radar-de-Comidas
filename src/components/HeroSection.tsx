@@ -33,40 +33,55 @@ export const HeroSection: React.FC = () => {
               Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.
             </p>
 
-            {/* Price Anchor Card & Primary Action */}
-            <div className="w-full max-w-full p-4 sm:p-5 bg-white border border-[#E0E7DC] rounded-3xl mb-5 sm:mb-6 shadow-sm">
-              <div className="flex flex-wrap items-baseline gap-2 sm:gap-3 mb-2.5">
+            {/* Price Anchor Card & Primary Action with Neuromarketing Triggers */}
+            <div className="w-full max-w-full p-4 sm:p-5 bg-white border border-[#E0E7DC] rounded-3xl mb-5 sm:mb-6 shadow-md relative overflow-hidden">
+              {/* Subtle launch badge */}
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FCF3ED] text-[#D9532F] border border-[#F2D0C2] text-[11px] font-black uppercase tracking-wider mb-2.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#D9532F] animate-ping" />
+                <span>Oferta especial de lanzamiento · 88% OFF</span>
+              </div>
+
+              <div className="flex flex-wrap items-baseline gap-2 sm:gap-3 mb-1.5">
                 <span className="text-xs sm:text-sm uppercase tracking-wider font-bold text-[#557567]">
-                  Oferta de acceso:
+                  Valor total $50 USD · Hoy:
                 </span>
                 <span className="text-sm sm:text-base text-neutral-400 line-through font-semibold">
                   De 29 USD
                 </span>
-                <span className="text-xs font-black uppercase tracking-wider text-[#D97757]">
+                <span className="text-xs font-black uppercase tracking-wider text-[#D9532F]">
                   POR APENAS
                 </span>
-                <span className="text-2xl sm:text-3xl font-black text-[#174C38] tabular-nums">
+                <span className="text-3xl sm:text-4xl font-black text-[#174C38] tabular-nums">
                   6 USD
                 </span>
               </div>
 
-              {/* Direct Hotmart link */}
+              <p className="text-xs text-[#527263] font-medium mb-3">
+                Menos de lo que gastas en un café, para nunca más sufrir el bloqueo de "¿qué cocino hoy?".
+              </p>
+
+              {/* High-Contrast Conversion CTA Button */}
               <a
                 href={HOTMART_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#174C38] hover:bg-[#123C2C] text-white font-black text-sm sm:text-base px-6 sm:px-8 py-3.5 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] transition-all cursor-pointer text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/20 hover:shadow-xl hover:shadow-[#D9532F]/30 active:scale-[0.98] transition-all cursor-pointer text-center group"
               >
-                <span>Obtén acceso INMEDIATO</span>
-                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                <span>¡SÍ, QUIERO ACCESO INMEDIATO POR $6 USD!</span>
+                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
 
               {/* Contador de escasez dinámico justo debajo del botón principal */}
               <ScarcityCounter />
 
-              <div className="mt-2.5 flex items-center gap-1.5 text-[11px] font-semibold text-[#557567] flex-wrap">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" />
-                <span>Pago seguro cifrado a través de Hotmart® · Acceso de por vida</span>
+              <div className="mt-3 pt-3 border-t border-[#F0F4EE] flex flex-wrap items-center justify-between gap-2 text-[11px] font-semibold text-[#557567]">
+                <span className="flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" />
+                  Pago único · Acceso vitalicio · Sin suscripciones
+                </span>
+                <span className="text-emerald-700 font-bold">
+                  🛡️ Garantía incondicional 7 días
+                </span>
               </div>
             </div>
 
