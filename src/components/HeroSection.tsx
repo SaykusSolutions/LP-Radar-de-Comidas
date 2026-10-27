@@ -33,31 +33,26 @@ export const HeroSection: React.FC = () => {
               Mini-app que convierte tus ingredientes, tiempo y gustos en tres comidas posibles en 3 minutos.
             </p>
 
-            {/* Price Anchor Card & Primary Action with Neuromarketing Triggers */}
+            {/* Price Card & Primary Action */}
             <div className="w-full max-w-full p-4 sm:p-5 bg-white border border-[#E0E7DC] rounded-3xl mb-5 sm:mb-6 shadow-md relative overflow-hidden">
-              {/* Subtle launch badge */}
+              {/* Clean launch badge */}
               <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FCF3ED] text-[#D9532F] border border-[#F2D0C2] text-[11px] font-black uppercase tracking-wider mb-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#D9532F] animate-ping" />
-                <span>Oferta especial de lanzamiento · 88% OFF</span>
+                <span>Oferta de lanzamiento · Acceso de por vida</span>
               </div>
 
+              {/* Clear, straightforward pricing without confusing number clutter */}
               <div className="flex flex-wrap items-baseline gap-2 sm:gap-3 mb-1.5">
-                <span className="text-xs sm:text-sm uppercase tracking-wider font-bold text-[#557567]">
-                  Valor total $50 USD · Hoy:
+                <span className="text-3xl sm:text-4xl font-black text-[#174C38] tracking-tight tabular-nums">
+                  $6 USD
                 </span>
-                <span className="text-sm sm:text-base text-neutral-400 line-through font-semibold">
-                  De 29 USD
-                </span>
-                <span className="text-xs font-black uppercase tracking-wider text-[#D9532F]">
-                  POR APENAS
-                </span>
-                <span className="text-3xl sm:text-4xl font-black text-[#174C38] tabular-nums">
-                  6 USD
+                <span className="text-xs sm:text-sm font-semibold text-[#557567]">
+                  (Pago único · Sin mensualidades)
                 </span>
               </div>
 
               <p className="text-xs text-[#527263] font-medium mb-3">
-                Menos de lo que gastas en un café, para nunca más sufrir el bloqueo de "¿qué cocino hoy?".
+                Un solo pago para tener la mini-app completa y los 4 bonos de regalo para siempre.
               </p>
 
               {/* High-Contrast Conversion CTA Button */}

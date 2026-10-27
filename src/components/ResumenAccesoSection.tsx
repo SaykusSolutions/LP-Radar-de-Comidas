@@ -114,14 +114,14 @@ export const ResumenAccesoSection: React.FC = () => {
             <p className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#527263]">
               Acceso vitalicio a la mini-app + los 4 bonos de regalo
             </p>
-            <div className="text-4xl sm:text-7xl font-black text-[#174C38] tracking-tight my-1 sm:my-2 tabular-nums">
-              USD 6
+            <div className="text-4xl sm:text-6xl font-black text-[#174C38] tracking-tight my-2 tabular-nums">
+              $6 USD
             </div>
-            <p className="text-xs sm:text-sm text-[#D9532F] font-black mb-1">
-              Ahorras $44 USD hoy (88% de descuento de lanzamiento)
+            <p className="text-xs sm:text-sm text-[#D9532F] font-bold mb-1">
+              Precio especial de lanzamiento · 1 solo pago de por vida
             </p>
-            <p className="text-[11px] text-[#557567] font-medium">
-              1 solo pago · Sin suscripciones mensuales · Acceso vitalicio inmediato
+            <p className="text-[11px] sm:text-xs text-[#557567] font-medium">
+              Sin suscripciones mensuales · Acceso vitalicio inmediato con todos los bonos
             </p>
           </div>
 
