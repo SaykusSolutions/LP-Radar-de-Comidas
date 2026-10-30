@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRight, Clock, CheckCircle2 } from 'lucide-react';
 import { ScarcityCounter } from './ScarcityCounter';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
 export const HeroSection: React.FC = () => {
   return (

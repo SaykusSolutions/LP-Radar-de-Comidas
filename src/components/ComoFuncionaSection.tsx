@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { ArrowRight, ChefHat, Clock, RefreshCw } from 'lucide-react';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
 interface MealRecipe {
   title: string;

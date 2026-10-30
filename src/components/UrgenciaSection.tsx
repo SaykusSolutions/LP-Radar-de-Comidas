@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Flame, ShieldCheck } from 'lucide-react';
 import { ScarcityCounter } from './ScarcityCounter';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
 export const UrgenciaSection: React.FC = () => {
   // Dynamic countdown timer starting at 14 min 59 sec
