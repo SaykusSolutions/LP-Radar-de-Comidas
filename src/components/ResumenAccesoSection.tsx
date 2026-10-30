@@ -115,7 +115,7 @@ export const ResumenAccesoSection: React.FC = () => {
               Acceso vitalicio a la mini-app + los 4 bonos de regalo
             </p>
             <div className="text-4xl sm:text-6xl font-black text-[#174C38] tracking-tight my-2 tabular-nums">
-              $6 USD
+              $5 USD
             </div>
             <p className="text-xs sm:text-sm text-[#D9532F] font-bold mb-1">
               Precio especial de lanzamiento · 1 solo pago de por vida
@@ -132,7 +132,7 @@ export const ResumenAccesoSection: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-xl py-4 sm:py-5 px-6 rounded-full shadow-xl shadow-[#D9532F]/30 hover:shadow-2xl active:scale-[0.98] transition-all cursor-pointer text-center mb-3 group"
           >
-            <span>¡SÍ, QUIERO MI ACCESO VITALICIO POR $6 USD!</span>
+            <span>¡SÍ, QUIERO MI ACCESO VITALICIO POR $5 USD!</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 

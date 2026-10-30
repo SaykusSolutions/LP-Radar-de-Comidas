@@ -12,7 +12,7 @@ export const FaqSection: React.FC = () => {
   const faqs: FaqItem[] = [
     {
       question: "¿Cómo accedo?",
-      answer: "Inmediatamente después de completar tu pago seguro de 6 USD a través de Hotmart®, recibirás un correo electrónico automático con tu enlace de acceso directo a la mini-app. Podrás abrirla en cualquier navegador de tu celular, tablet o computador sin descargas pesadas.",
+      answer: "Inmediatamente después de completar tu pago seguro de 5 USD a través de Hotmart®, recibirás un correo electrónico automático con tu enlace de acceso directo a la mini-app. Podrás abrirla en cualquier navegador de tu celular, tablet o computador sin descargas pesadas.",
     },
     {
       question: "¿Es un curso en video?",

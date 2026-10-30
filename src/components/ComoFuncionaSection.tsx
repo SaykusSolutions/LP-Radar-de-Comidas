@@ -514,7 +514,7 @@ export const ComoFuncionaSection: React.FC = () => {
                     ¿Viste lo rápido que encontraste tu menú?
                   </span>
                   <span className="text-[11px] sm:text-xs text-[#446556] font-medium block">
-                    Ten este mismo asistente en tu teléfono con combinaciones infinitas por solo $6 USD.
+                    Ten este mismo asistente en tu teléfono con combinaciones infinitas por solo $5 USD.
                   </span>
                 </div>
                 <a
@@ -523,7 +523,7 @@ export const ComoFuncionaSection: React.FC = () => {
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-5 py-3 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] whitespace-nowrap cursor-pointer transition-all shrink-0"
                 >
-                  <span>¡Lo quiero en mi celular por $6 USD!</span>
+                  <span>¡Lo quiero en mi celular por $5 USD!</span>
                   <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
                 </a>
               </div>

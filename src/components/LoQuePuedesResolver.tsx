@@ -110,7 +110,7 @@ export const LoQuePuedesResolver: React.FC = () => {
           </div>
 
           <div className="text-4xl sm:text-6xl font-black tracking-tight text-white mb-2 tabular-nums">
-            6 USD
+            5 USD
           </div>
 
           <p className="text-xs sm:text-sm text-emerald-100/90 font-medium mb-6 max-w-md mx-auto">
@@ -123,7 +123,7 @@ export const LoQuePuedesResolver: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-lg px-8 sm:px-12 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/30 active:scale-[0.98] transition-all cursor-pointer mb-3 group"
           >
-            <span>Obtener acceso inmediato por $6 USD</span>
+            <span>Obtener acceso inmediato por $5 USD</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-white shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 

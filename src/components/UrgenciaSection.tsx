@@ -88,7 +88,7 @@ export const UrgenciaSection: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-lg px-8 py-4 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Garantizar acceso por 6 USD</span>
+            <span>Garantizar acceso por 5 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 

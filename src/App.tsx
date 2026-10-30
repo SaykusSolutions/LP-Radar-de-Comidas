@@ -49,7 +49,7 @@ export default function App() {
         {/* 8. LO QUE ESTÁN DICIENDO (Testimonios Reales) [Fondo Blanco Puro #FFFFFF] */}
         <TestimoniosSection />
 
-        {/* 9. RESUMEN DE TU ACCESO (Stack de Oferta $50 USD tachado -> $11 USD) [Fondo Verde Botánico #174C38] */}
+        {/* 9. RESUMEN DE TU ACCESO (Oferta especial $5 USD) [Fondo Verde Botánico #174C38] */}
         <ResumenAccesoSection />
 
         {/* 10. Garantia incondicional de 7 dias [Fondo Cálido Marfil #FAF7F2] */}

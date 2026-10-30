@@ -44,7 +44,7 @@ export const HeroSection: React.FC = () => {
               {/* Clear, straightforward pricing without confusing number clutter */}
               <div className="flex flex-wrap items-baseline gap-2 sm:gap-3 mb-1.5">
                 <span className="text-3xl sm:text-4xl font-black text-[#174C38] tracking-tight tabular-nums">
-                  $6 USD
+                  $5 USD
                 </span>
                 <span className="text-xs sm:text-sm font-semibold text-[#557567]">
                   (Pago único · Sin mensualidades)
@@ -62,7 +62,7 @@ export const HeroSection: React.FC = () => {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-6 sm:px-8 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/20 hover:shadow-xl hover:shadow-[#D9532F]/30 active:scale-[0.98] transition-all cursor-pointer text-center group"
               >
-                <span>¡SÍ, QUIERO ACCESO INMEDIATO POR $6 USD!</span>
+                <span>¡SÍ, QUIERO ACCESO INMEDIATO POR $5 USD!</span>
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
 

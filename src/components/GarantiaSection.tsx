@@ -34,7 +34,7 @@ export const GarantiaSection: React.FC = () => {
             </h3>
 
             <p className="text-sm sm:text-base font-medium text-[#385B4E] leading-relaxed break-words">
-              Entra hoy, usa la mini-app con lo que tienes en tu nevera para tu almuerzo y cena. Si sientes que no te ahorra tiempo ni te quita el estrés de encima, solicitas la devolución de tus <strong>$6 USD</strong> en Hotmart con un solo clic. Sin preguntas, sin trabas y sin explicaciones incómodas.
+              Entra hoy, usa la mini-app con lo que tienes en tu nevera para tu almuerzo y cena. Si sientes que no te ahorra tiempo ni te quita el estrés de encima, solicitas la devolución de tus <strong>$5 USD</strong> en Hotmart con un solo clic. Sin preguntas, sin trabas y sin explicaciones incómodas.
             </p>
 
             <div className="pt-2 flex flex-wrap items-center justify-center md:justify-start gap-4 text-xs font-bold text-[#174C38]">

@@ -72,7 +72,7 @@ export const SocialProofTicker: React.FC = () => {
             {item.name} de {item.location}
           </p>
           <p className="text-[11px] text-[#466759] leading-tight mt-0.5">
-            Aseguró su acceso por $6 USD <span className="text-[#D97757] font-semibold">({item.timeAgo})</span>
+            Aseguró su acceso por $5 USD <span className="text-[#D97757] font-semibold">({item.timeAgo})</span>
           </p>
         </div>
         <button

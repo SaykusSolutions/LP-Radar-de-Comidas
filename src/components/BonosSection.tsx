@@ -167,7 +167,7 @@ export const BonosSection: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-8 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/20 active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Quiero la mini-app + los 4 bonos por $6 USD</span>
+            <span>Quiero la mini-app + los 4 bonos por $5 USD</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
           <p className="text-[11px] sm:text-xs text-[#527263] font-medium mt-2.5">
