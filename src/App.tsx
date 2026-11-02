@@ -11,55 +11,62 @@ import { TestimoniosSection } from './components/TestimoniosSection';
 import { ResumenAccesoSection } from './components/ResumenAccesoSection';
 import { GarantiaSection } from './components/GarantiaSection';
 import { FaqSection } from './components/FaqSection';
+import { CierreSection } from './components/CierreSection';
 import { Footer } from './components/Footer';
 import { SocialProofTicker } from './components/SocialProofTicker';
+import { MobileStickyBar } from './components/MobileStickyBar';
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-[#F6F8F3] text-[#174C38] flex flex-col font-['Montserrat',sans-serif] selection:bg-emerald-100 selection:text-[#174C38]">
-      {/* Notificación sutil de prueba social (psicología de validación) */}
+    <div className="min-h-screen w-full max-w-full overflow-x-clip bg-[#F6F8F3] text-[#174C38] flex flex-col font-['Montserrat',sans-serif] selection:bg-emerald-100 selection:text-[#174C38] pb-14 md:pb-0">
+      {/* Notificación sutil de prueba social */}
       <SocialProofTicker />
 
-      {/* Única barra de navegación superior (fija, compacta y responsiva en celulares) */}
+      {/* Barra flotante de compra rápida fija para celulares */}
+      <MobileStickyBar />
+
+      {/* Única barra de navegación superior */}
       <Navbar />
 
-      {/* Secciones dinámicas, armónicas y 100% responsivas para celular y escritorio */}
       <main className="flex-1 w-full max-w-full overflow-x-hidden">
-        {/* 1. Hero Block [Fondo Suave Porcelana Saludable #F6F8F3] */}
+        {/* 1. Hero Block */}
         <HeroSection />
 
-        {/* 2. Lo que puedes resolver [Fondo Blanco Puro Luminoso #FFFFFF] */}
+        {/* 2. Lo que puedes resolver */}
         <LoQuePuedesResolver />
 
-        {/* 3. ¿Esto es para mí? / ¿Te identificas con esto? [Fondo Cálido Crema Almendra #FAF6F0] */}
+        {/* 3. ¿Esto es para mí? */}
         <IdentificasSection />
 
-        {/* 4. EL BLOQUEO DE ABRIR LA NEVERA Y NO SABER QUÉ HACER [Fondo Contraste Salvia Suave #EAF1E9] */}
+        {/* 4. El Problema & La Solución */}
         <BloqueoSection />
 
-        {/* 5. Cómo funciona: Radar de Comidas & Método [Fondo Blanco #FFFFFF con simulador dinámico] */}
+        {/* 5. Cómo funciona: Radar de Comidas & Método */}
         <ComoFuncionaSection />
 
-        {/* 6. Oferta por tiempo limitado & Urgencia [Fondo Cálido Miel / Terracota #FCF6EE] */}
+        {/* 6. Urgencia Real */}
         <UrgenciaSection />
 
-        {/* 7. Bonos Exclusivos con Valor Tachado y Regalo [Fondo Suave Salvia #F6F8F3] */}
+        {/* 7. Bonos Exclusivos */}
         <BonosSection />
 
-        {/* 8. LO QUE ESTÁN DICIENDO (Testimonios Reales) [Fondo Blanco Puro #FFFFFF] */}
+        {/* 8. Lo que están diciendo */}
         <TestimoniosSection />
 
-        {/* 9. RESUMEN DE TU ACCESO (Oferta especial $5 USD) [Fondo Verde Botánico #174C38] */}
+        {/* 9. Resumen de tu acceso */}
         <ResumenAccesoSection />
 
-        {/* 10. Garantia incondicional de 7 dias [Fondo Cálido Marfil #FAF7F2] */}
+        {/* 10. Garantía incondicional */}
         <GarantiaSection />
 
-        {/* 11. Preguntas Frecuentes [Fondo Blanco #FFFFFF] */}
+        {/* 11. Preguntas Frecuentes */}
         <FaqSection />
+
+        {/* 12. Cierre & CTA 3 */}
+        <CierreSection />
       </main>
 
-      {/* 12. Footer [Fondo Verde Suave y Calmo #0D2B20] */}
+      {/* 13. Footer */}
       <Footer />
     </div>
   );

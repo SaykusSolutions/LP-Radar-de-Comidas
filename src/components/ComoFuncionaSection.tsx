@@ -245,96 +245,96 @@ export const ComoFuncionaSection: React.FC = () => {
   };
 
   return (
-    <section id="como-funciona" className="relative w-full max-w-full overflow-hidden bg-white text-[#174C38] py-14 sm:py-24 border-b border-[#E3E9DF]">
+    <section id="como-funciona" className="relative w-full max-w-full overflow-x-clip bg-white text-[#174C38] py-10 sm:py-20 border-b border-[#E3E9DF]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         
         {/* Intro Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
           <p className="text-xs sm:text-sm font-bold tracking-widest uppercase text-[#557567] mb-2">
             La Solución Concreta
           </p>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#174C38] mb-4 sm:mb-6 break-words [text-wrap:balance]">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#174C38] mb-3 sm:mb-5 break-words [text-wrap:balance]">
             Cómo funciona: Radar de Comidas
           </h2>
-          <p className="text-sm sm:text-lg font-semibold text-[#174C38] leading-relaxed mb-3 sm:mb-4 break-words">
+          <p className="text-sm sm:text-lg font-semibold text-[#174C38] leading-relaxed mb-2 sm:mb-3 break-words">
             En lugar de darte otro menú fijo, te ayuda a decidir con lo que tienes y lo que puedes hacer hoy.
           </p>
-          <p className="text-sm sm:text-lg font-normal text-[#3E5E50] leading-relaxed break-words">
+          <p className="text-xs sm:text-base font-normal text-[#3E5E50] leading-relaxed break-words">
             Tú indicas tus ingredientes, tiempo y preferencias. El sistema organiza las opciones y recibes tres ideas sencillas, sin contar calorías ni seguir reglas rígidas.
           </p>
         </div>
 
         {/* CÓMO FUNCIONA EL MÉTODO */}
-        <div className="mb-14 sm:mb-20">
-          <div className="text-center mb-8 sm:mb-10">
+        <div className="mb-10 sm:mb-16">
+          <div className="text-center mb-6 sm:mb-10">
             <h3 className="text-xl sm:text-3xl font-black uppercase tracking-tight text-[#174C38] break-words">
               CÓMO FUNCIONA EL MÉTODO
             </h3>
-            <p className="text-xs sm:text-base font-medium text-[#4D6C5E] mt-2 break-words">
-              Tres pasos para pasar de “no sé qué preparar” a elegir una comida posible.
+            <p className="text-xs sm:text-base font-medium text-[#4D6C5E] mt-1.5 sm:mt-2 break-words">
+              Tres pasos simples para salir del bloqueo nocturno y cenar tranquilo.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4 sm:gap-8">
+          <div className="grid md:grid-cols-3 gap-3.5 sm:gap-6">
             {/* Step 1 */}
-            <div className="relative p-5 sm:p-8 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
-              <div className="flex items-center justify-between mb-4 sm:mb-6">
-                <span className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-[#174C38] text-white font-black text-xl sm:text-2xl flex items-center justify-center shadow-xs">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
+              <div className="flex items-center justify-between mb-3 sm:mb-5">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
                   1
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#557567]">
-                  Paso 01
+                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#557567]">
+                  Input
                 </span>
               </div>
-              <h4 className="text-base sm:text-lg font-black text-[#174C38] uppercase tracking-tight mb-2 sm:mb-3 break-words">
-                PASO 01: Lo que tienes
+              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+                PASO 01: INPUT
               </h4>
-              <p className="text-xs sm:text-base font-normal text-[#2C4B3E] leading-relaxed break-words">
-                Indica ingredientes disponibles, tiempo, preferencias y si quieres cocinar o elegir algo listo.
+              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+                Seleccionas en pantalla los alimentos que tienes a mano y los minutos disponibles.
               </p>
             </div>
 
             {/* Step 2 */}
-            <div className="relative p-5 sm:p-8 rounded-2xl bg-[#E8EFE6] border-2 border-[#174C38]/40 shadow-xs flex flex-col w-full max-w-full">
-              <div className="flex items-center justify-between mb-4 sm:mb-6">
-                <span className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-[#174C38] text-white font-black text-xl sm:text-2xl flex items-center justify-center shadow-xs">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#E8EFE6] border-2 border-[#174C38]/40 shadow-xs flex flex-col w-full max-w-full">
+              <div className="flex items-center justify-between mb-3 sm:mb-5">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
                   2
                 </span>
-                <span className="text-xs font-black uppercase tracking-wider text-[#174C38]">
-                  Paso 02
+                <span className="text-[11px] sm:text-xs font-black uppercase tracking-wider text-[#174C38]">
+                  Tecnología
                 </span>
               </div>
-              <h4 className="text-base sm:text-lg font-black text-[#174C38] uppercase tracking-tight mb-2 sm:mb-3 break-words">
-                PASO 02: Radar de Comidas
+              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+                PASO 02: TECNOLOGÍA
               </h4>
-              <p className="text-xs sm:text-base font-normal text-[#2C4B3E] leading-relaxed break-words">
-                La mini-app cruza tus respuestas y propone opciones acordes con lo que puedes hacer hoy.
+              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+                El algoritmo cruza tus alimentos con combinaciones prácticas y descarta lo que te roba tiempo.
               </p>
             </div>
 
             {/* Step 3 */}
-            <div className="relative p-5 sm:p-8 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
-              <div className="flex items-center justify-between mb-4 sm:mb-6">
-                <span className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-[#174C38] text-white font-black text-xl sm:text-2xl flex items-center justify-center shadow-xs">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
+              <div className="flex items-center justify-between mb-3 sm:mb-5">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
                   3
                 </span>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#557567]">
-                  Paso 03
+                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#557567]">
+                  Output
                 </span>
               </div>
-              <h4 className="text-base sm:text-lg font-black text-[#174C38] uppercase tracking-tight mb-2 sm:mb-3 break-words">
-                PASO 03: Tu elección
+              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+                PASO 03: OUTPUT
               </h4>
-              <p className="text-xs sm:text-base font-normal text-[#2C4B3E] leading-relaxed break-words">
-                Elige una idea, consulta sus pasos breves y guarda una lista de compra opcional.
+              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+                Eliges una de las tres opciones claras y preparas tu comida sin vueltas.
               </p>
             </div>
           </div>
         </div>
 
         {/* Dynamic Interactive Simulator with mobile safety */}
-        <div className="p-4 sm:p-10 rounded-3xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-sm w-full max-w-full overflow-hidden">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 pb-4 sm:pb-6 mb-4 sm:mb-6 border-b border-[#E0E7DC]">
+        <div className="p-4 sm:p-8 rounded-3xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-sm w-full max-w-full">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 pb-3.5 sm:pb-5 mb-4 sm:mb-6 border-b border-[#E0E7DC]">
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <img 
@@ -346,7 +346,7 @@ export const ComoFuncionaSection: React.FC = () => {
                   Simulación Dinámica en Tiempo Real
                 </span>
               </div>
-              <h4 className="text-lg sm:text-2xl font-black text-[#174C38] break-words">
+              <h4 className="text-base sm:text-2xl font-black text-[#174C38] break-words">
                 Haz la prueba con lo que tienes hoy en tu cocina
               </h4>
             </div>
@@ -355,7 +355,7 @@ export const ComoFuncionaSection: React.FC = () => {
             </span>
           </div>
 
-          <div className="grid lg:grid-cols-12 gap-6 sm:gap-8 items-start w-full max-w-full">
+          <div className="grid lg:grid-cols-12 gap-5 sm:gap-8 items-start w-full max-w-full">
             
             {/* Input Controls */}
             <div className="lg:col-span-5 space-y-4 sm:space-y-6 bg-white p-4 sm:p-6 rounded-2xl border border-[#E0E7DC] w-full max-w-full">
@@ -366,7 +366,7 @@ export const ComoFuncionaSection: React.FC = () => {
                   <label className="text-xs font-black uppercase tracking-wider text-[#174C38]">
                     1. Elige ingredientes:
                   </label>
-                  <span className="text-[10px] sm:text-[11px] font-bold text-[#D97757]">
+                  <span className="text-[11px] font-bold text-[#D97757]">
                     {selectedIngredients.length} elegidos
                   </span>
                 </div>
@@ -377,7 +377,7 @@ export const ComoFuncionaSection: React.FC = () => {
                       <button
                         key={ing}
                         onClick={() => toggleIngredient(ing)}
-                        className={`text-[11px] sm:text-xs font-bold px-2.5 sm:px-3 py-1.5 rounded-full transition-all cursor-pointer whitespace-nowrap ${
+                        className={`text-xs font-bold px-3 py-2 rounded-xl transition-all cursor-pointer active:scale-95 select-none ${
                           isSelected
                             ? 'bg-[#174C38] text-white font-black shadow-xs'
                             : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
@@ -395,12 +395,12 @@ export const ComoFuncionaSection: React.FC = () => {
                 <label className="block text-xs font-black uppercase tracking-wider text-[#174C38] mb-2">
                   2. ¿Cuánto tiempo tienes?
                 </label>
-                <div className="grid grid-cols-3 gap-1.5 sm:gap-2">
+                <div className="grid grid-cols-3 gap-2">
                   {['10 min', '15 min', '25 min'].map((time) => (
                     <button
                       key={time}
                       onClick={() => setTimeAvailable(time)}
-                      className={`text-[11px] sm:text-xs font-bold py-2 rounded-xl transition-all cursor-pointer text-center ${
+                      className={`text-xs font-bold py-2.5 rounded-xl transition-all cursor-pointer text-center active:scale-95 ${
                         timeAvailable === time
                           ? 'bg-[#174C38] text-white font-black shadow-xs'
                           : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
@@ -417,10 +417,10 @@ export const ComoFuncionaSection: React.FC = () => {
                 <label className="block text-xs font-black uppercase tracking-wider text-[#174C38] mb-2">
                   3. Tu preferencia de hoy:
                 </label>
-                <div className="grid grid-cols-2 gap-1.5 sm:gap-2">
+                <div className="grid grid-cols-2 gap-2">
                   <button
                     onClick={() => setCookingPreference('cocinar')}
-                    className={`text-[11px] sm:text-xs font-bold py-2 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight ${
+                    className={`text-xs font-bold py-2.5 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight active:scale-95 ${
                       cookingPreference === 'cocinar'
                         ? 'bg-[#174C38] text-white font-black'
                         : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
@@ -430,7 +430,7 @@ export const ComoFuncionaSection: React.FC = () => {
                   </button>
                   <button
                     onClick={() => setCookingPreference('listo')}
-                    className={`text-[11px] sm:text-xs font-bold py-2 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight ${
+                    className={`text-xs font-bold py-2.5 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight active:scale-95 ${
                       cookingPreference === 'listo'
                         ? 'bg-[#174C38] text-white font-black'
                         : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
@@ -444,7 +444,7 @@ export const ComoFuncionaSection: React.FC = () => {
               {/* Manual refresh scan button */}
               <button
                 onClick={handleTriggerScan}
-                className="w-full py-2.5 sm:py-3 bg-[#E8EFE6] hover:bg-[#DDE7DA] text-[#174C38] font-black text-xs uppercase tracking-wider rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2"
+                className="w-full py-3 bg-[#E8EFE6] hover:bg-[#DDE7DA] active:scale-98 text-[#174C38] font-black text-xs uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center justify-center gap-2"
               >
                 <RefreshCw className={`w-3.5 h-3.5 shrink-0 ${isSimulating ? 'animate-spin' : ''}`} />
                 <span>{isSimulating ? 'Calculando...' : 'Actualizar 3 Opciones'}</span>
@@ -470,11 +470,11 @@ export const ComoFuncionaSection: React.FC = () => {
                     key={index}
                     className="p-3.5 sm:p-4 rounded-2xl bg-[#F9FBF8] border border-[#E2EAE0] hover:border-[#174C38]/40 transition-all w-full max-w-full"
                   >
-                    <div className="flex items-start justify-between gap-2 mb-1.5">
-                      <h5 className="text-xs sm:text-base font-bold text-[#174C38] leading-snug break-words">
+                    <div className="flex flex-wrap items-center justify-between gap-1.5 mb-1.5">
+                      <h5 className="text-xs sm:text-base font-bold text-[#174C38] leading-snug break-words flex-1 min-w-[200px]">
                         {index + 1}. {meal.title}
                       </h5>
-                      <span className="text-[9px] sm:text-[10px] font-black text-[#174C38] bg-[#E8EFE6] px-2 py-0.5 rounded-full shrink-0 whitespace-nowrap">
+                      <span className="text-[9px] sm:text-[10px] font-black text-[#174C38] bg-[#E8EFE6] px-2 py-0.5 rounded-full shrink-0">
                         {meal.badge}
                       </span>
                     </div>
@@ -507,23 +507,23 @@ export const ComoFuncionaSection: React.FC = () => {
                 ))}
               </div>
 
-              {/* Direct Hotmart link banner with Psychological Ownership Effect */}
+              {/* Direct Hotmart link banner */}
               <div className="mt-4 pt-3.5 border-t border-[#EAEFE8] flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left bg-[#F4F8F2] p-3 sm:p-4 rounded-2xl border border-[#DFEADC]">
-                <div className="min-w-0">
+                <div className="min-w-0 flex-1">
                   <span className="text-xs sm:text-sm text-[#174C38] font-black block">
                     ¿Viste lo rápido que encontraste tu menú?
                   </span>
                   <span className="text-[11px] sm:text-xs text-[#446556] font-medium block">
-                    Ten este mismo asistente en tu teléfono con combinaciones infinitas por solo $5 USD.
+                    Acceso vitalicio a la herramienta y a los cuatro bonos por un solo pago de $5 USD.
                   </span>
                 </div>
                 <a
                   href={HOTMART_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-5 py-3 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] whitespace-nowrap cursor-pointer transition-all shrink-0"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-5 py-3 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer transition-all shrink-0 text-center"
                 >
-                  <span>¡Lo quiero en mi celular por $5 USD!</span>
+                  <span>Eliminar el estrés de cocinar por $5</span>
                   <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
                 </a>
               </div>

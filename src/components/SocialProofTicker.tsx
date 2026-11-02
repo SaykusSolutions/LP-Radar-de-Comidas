@@ -61,14 +61,14 @@ export const SocialProofTicker: React.FC = () => {
   return (
     <aside 
       aria-label="Notificación de compra reciente"
-      className="fixed bottom-4 left-4 z-40 max-w-[320px] bg-white/95 backdrop-blur-md text-[#174C38] border border-[#E0E7DC] p-3 rounded-2xl shadow-xl transition-all duration-300 animate-in fade-in slide-in-from-bottom-3"
+      className="fixed bottom-18 md:bottom-4 left-3 right-3 sm:right-auto sm:left-4 z-40 max-w-[320px] bg-white/95 backdrop-blur-md text-[#174C38] border border-[#E0E7DC] p-3 rounded-2xl shadow-xl transition-all duration-300 animate-in fade-in slide-in-from-bottom-3"
     >
       <div className="flex items-center gap-3">
         <div className="w-8 h-8 rounded-full bg-[#E8EFE6] text-[#174C38] flex items-center justify-center shrink-0">
           <CheckCircle2 className="w-4 h-4 text-emerald-600" />
         </div>
         <div className="flex-1 min-w-0 pr-1">
-          <p className="text-xs font-black text-[#174C38] leading-tight truncate">
+          <p className="text-xs font-black text-[#174C38] leading-tight break-words">
             {item.name} de {item.location}
           </p>
           <p className="text-[11px] text-[#466759] leading-tight mt-0.5">

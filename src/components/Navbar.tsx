@@ -18,7 +18,7 @@ export const Navbar: React.FC = () => {
             alt="Logo Radar de Comidas" 
             className="w-6 h-6 sm:w-8 sm:h-8 object-contain shrink-0 group-hover:scale-105 transition-transform"
           />
-          <span className="text-xs sm:text-base font-black tracking-wider text-[#174C38] uppercase truncate group-hover:text-[#113829] transition-colors">
+          <span className="text-xs sm:text-base font-black tracking-wider text-[#174C38] uppercase whitespace-nowrap group-hover:text-[#113829] transition-colors">
             RADAR DE COMIDAS
           </span>
         </a>

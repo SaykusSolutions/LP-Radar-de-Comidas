@@ -5,7 +5,7 @@ export const BloqueoSection: React.FC = () => {
   const [imgSrc, setImgSrc] = useState<string>(fridgeFrictionImg);
 
   return (
-    <section className="relative w-full max-w-full overflow-hidden bg-[#EAF1E9] text-[#174C38] py-14 sm:py-24 border-b border-[#D8E3D6]">
+    <section className="relative w-full max-w-full overflow-x-clip bg-[#EAF1E9] text-[#174C38] py-10 sm:py-20 border-b border-[#D8E3D6]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-14 items-center">
           
@@ -43,31 +43,32 @@ export const BloqueoSection: React.FC = () => {
             </div>
 
             <h2 className="text-xl sm:text-3xl md:text-5xl font-black uppercase tracking-tight text-[#174C38] mb-5 sm:mb-8 leading-tight break-words [text-wrap:balance]">
-              EL BLOQUEO DE ABRIR LA NEVERA Y NO SABER QUÉ HACER
+              LA PARÁLISIS DE LA NEVERA
             </h2>
 
             <div className="space-y-4 sm:space-y-6 text-sm sm:text-lg font-normal leading-relaxed text-[#2B4B3D]">
               <p className="break-words">
-                Llega la hora de comer. Tienes hambre, poco tiempo y varias cosas en la cocina, pero ninguna parece convertirse en una comida fácil.
+                Llegas a casa con el cuerpo molido y la cabeza agotada. Abres la nevera con hambre y sientes frustración: no hay nada listo y pensar una receta se siente como un castigo.
               </p>
 
               <div className="p-4 sm:p-5 rounded-2xl bg-white border border-[#D5E1D3] shadow-xs text-[#174C38]">
                 <p className="font-semibold text-[#174C38] break-words">
-                  Ese atasco es la <span className="text-[#174C38] font-black underline decoration-[#D97757] decoration-2">Fricción de la Próxima Comida</span>: demasiadas decisiones justo cuando necesitas una opción concreta.
+                  Este bloqueo tiene nombre: <span className="text-[#174C38] font-black underline decoration-[#D97757] decoration-2">Fatiga de Decisión Nocturna</span>. Tu cerebro tomó cientos de decisiones durante el día y colapsa cuando debe inventar una cena con lo que encuentra.
                 </p>
               </div>
 
               <p className="break-words">
-                Los menús cerrados no siempre consideran tus gustos, presupuesto o día real. No es falta de voluntad; muchas veces, el plan simplemente no encaja.
+                Los menús de internet fallan porque exigen ingredientes que no tienes. No es falta de fuerza de voluntad: el método tradicional te obliga a pensar cuando menos energía tienes.
               </p>
 
-              {/* Neuromarketing Insight Callout */}
-              <div className="p-4 rounded-2xl bg-[#DFE9DE] border border-[#CCDCCD] text-xs sm:text-sm text-[#174C38] font-medium flex items-start gap-3">
-                <span className="text-lg leading-none shrink-0">🧠</span>
-                <div>
-                  <span className="font-black text-[#174C38] block mb-0.5">La ciencia de la fatiga por decisión:</span>
-                  <span>El cerebro gasta el 20% de tu energía diaria. Cuando tienes hambre y cansancio, exigirle crear un menú de la nada dispara la ansiedad. Radar de Comidas hace ese trabajo pesado por ti en 3 minutos.</span>
-                </div>
+              {/* Bloque 6: La Solución */}
+              <div className="p-5 rounded-2xl bg-[#DFE9DE] border border-[#CCDCCD] text-xs sm:text-base text-[#174C38] font-medium space-y-2">
+                <span className="font-black text-[#174C38] block text-sm sm:text-base uppercase tracking-wide">
+                  Cómo Funciona: ALGORITMO DE DESPENSA INVERSA
+                </span>
+                <p className="leading-relaxed">
+                  Tú marcas en la pantalla tres ingredientes que ya tienes en casa. El sistema descarta recetas complicadas y calcula tres combinaciones directas en segundos. Recibes platos reales para cocinar hoy con tus propios tiempos. Sin compras de último momento. Sin recetas de chef imposibles.
+                </p>
               </div>
             </div>
 

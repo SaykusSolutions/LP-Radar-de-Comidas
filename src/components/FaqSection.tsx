@@ -11,24 +11,24 @@ export const FaqSection: React.FC = () => {
 
   const faqs: FaqItem[] = [
     {
-      question: "¿Cómo accedo?",
-      answer: "Inmediatamente después de completar tu pago seguro de 5 USD a través de Hotmart®, recibirás un correo electrónico automático con tu enlace de acceso directo a la mini-app. Podrás abrirla en cualquier navegador de tu celular, tablet o computador sin descargas pesadas.",
+      question: "¿Tengo que saber cocinar para usar la mini-app?",
+      answer: "No necesitas experiencia previa. El sistema genera combinaciones caseras muy simples pensadas para resolver con lo que tengas a mano.",
     },
     {
-      question: "¿Es un curso en video?",
-      answer: "No. Radar de Comidas es una mini-app interactiva diseñada para la acción rápida. No tienes que ver horas de videos teóricos ni aprender conceptos complicados. Solo entras, marcas lo que tienes en tu cocina y en 3 minutos tienes tu comida resuelta.",
+      question: "¿Necesito comprar ingredientes exóticos o caros?",
+      answer: "No gastas en nada raro. La herramienta trabaja de forma inversa y parte exclusivamente de los alimentos básicos que ya guardas en tu casa.",
     },
     {
-      question: "¿Cuánto tiempo toma ver resultados?",
-      answer: "Desde tu próxima comida. Tan pronto abras la mini-app la primera vez que tengas hambre y no sepas qué hacer, verás tres opciones concretas en 3 minutos, eliminando de inmediato la parálisis de decisión.",
+      question: "¿Tengo que pagar mensualidades o renovaciones?",
+      answer: "No pagas nunca más. Es un pago único de 5 dólares que te da acceso de por vida a la herramienta y a los cuatro bonos.",
     },
     {
-      question: "¿Funciona en el celular?",
-      answer: "Sí, está optimizada al 100% para celulares (iPhone y Android). Puedes usarla directamente en tu navegador o guardarla como icono en tu pantalla de inicio con un toque, funcionando con la rapidez de una aplicación nativa sin ocupar espacio en tu memoria.",
+      question: "¿Cómo recibo el acceso después del pago?",
+      answer: "Recibes un correo electrónico automático de inmediato con tu enlace privado. Puedes abrir la mini-app en cualquier celular o computador sin instalar programas pesados.",
     },
     {
-      question: "¿Qué pasa si me falta un ingrediente?",
-      answer: "Precisamente para eso creamos el Bono 2: Sustituidor de Ingredientes. Si una opción te pide algo que no tienes en la despensa, el sistema te muestra alternativas culinarias sencillas con lo que sí hay en tu cocina para que nunca te quedes a mitad de camino.",
+      question: "¿Qué pasa si me falta un ingrediente de la lista sugerida?",
+      answer: "Usas el Simulador de Sustitutos incluido en tus bonos. Te muestra opciones cotidianas para reemplazarlo al instante sin frenar tu preparación.",
     },
   ];
 
@@ -37,7 +37,7 @@ export const FaqSection: React.FC = () => {
   };
 
   return (
-    <section id="faq" className="relative w-full max-w-full overflow-hidden bg-white text-[#174C38] py-14 sm:py-24 border-b border-[#E3E9DF]">
+    <section id="faq" className="relative w-full max-w-full overflow-x-clip bg-white text-[#174C38] py-10 sm:py-20 border-b border-[#E3E9DF]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         
         {/* Header */}

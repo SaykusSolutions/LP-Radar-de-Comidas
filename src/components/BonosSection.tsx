@@ -17,44 +17,44 @@ export const BonosSection: React.FC = () => {
   const bonos: BonoItem[] = [
     {
       id: 1,
-      title: "Bono 1: Plato Express",
-      subtitle: "Cuando tienes poco tiempo y ninguna idea a mano.",
-      description: "Indica cuánto tiempo tienes y recibe opciones acordes a ese límite.",
-      originalPrice: "USD 7",
+      title: "Bono 1: Generador Exprés de 10 Minutos",
+      subtitle: "Mata la objeción de tiempo y energía.",
+      description: "Mini-app interactiva con combinaciones de armado ultra rápido para días de cansancio extremo.",
+      originalPrice: "USD 12",
       image: "/assets/aistudio/bono-plato-express-producto_c7fdae47.webp",
       icon: <Zap className="w-4 h-4 text-[#174C38]" />,
     },
     {
       id: 2,
-      title: "Bono 2: Sustituidor de Ingredientes",
-      subtitle: "Te falta algo y el menú deja de encajar.",
-      description: "Selecciona el ingrediente que no tienes y revisa alternativas culinarias para adaptar la receta.",
-      originalPrice: "USD 5",
+      title: "Bono 2: Calculadora de Rescate de Sobras",
+      subtitle: "Mata la objeción del dinero tirado.",
+      description: "Herramienta que cruza sobras de comida cocida y genera un plato nuevo antes de que se desperdicien.",
+      originalPrice: "USD 10",
       image: "/assets/aistudio/bono-sustituidor-producto_52e4bb4d.webp",
       icon: <Repeat className="w-4 h-4 text-[#174C38]" />,
     },
     {
       id: 3,
-      title: "Bono 3: Lista Breve",
-      subtitle: "Entrar a comprar sin saber qué falta complica la semana.",
-      description: "Marca las opciones que elegiste y genera una lista de compra breve con sus ingredientes.",
-      originalPrice: "USD 4",
+      title: "Bono 3: Simulador de Sustitutos de Cocina",
+      subtitle: "Mata la objeción de ingredientes faltantes.",
+      description: "Buscador interactivo que te muestra al instante con qué reemplazar cualquier ingrediente faltante.",
+      originalPrice: "USD 9",
       image: "/assets/aistudio/bono-lista-breve-producto_57279b5e.webp",
       icon: <ShoppingCart className="w-4 h-4 text-[#174C38]" />,
     },
     {
       id: 4,
-      title: "Bono 4: Reinicio Amable",
-      subtitle: "Un día distinto no borra tus decisiones anteriores.",
-      description: "Responde un breve flujo interactivo y elige una acción cotidiana para retomar tu rutina, sin compensaciones ni castigos.",
-      originalPrice: "USD 5",
+      title: "Bono 4: Checklist Interactivo de Despensa Base",
+      subtitle: "Mata la duda de no saber comprar.",
+      description: "Generador automático de lista mínima para comprar lo justo según tu presupuesto semanal.",
+      originalPrice: "USD 7",
       image: "/assets/aistudio/bono-reinicio-amable-producto_60ae48bf.webp",
       icon: <HeartHandshake className="w-4 h-4 text-[#174C38]" />,
     },
   ];
 
   return (
-    <section id="bonos" className="relative w-full max-w-full overflow-hidden bg-[#F6F8F3] text-[#174C38] py-12 sm:py-20 border-b border-[#E3E9DF]">
+    <section id="bonos" className="relative w-full max-w-full overflow-x-clip bg-[#F6F8F3] text-[#174C38] py-12 sm:py-20 border-b border-[#E3E9DF]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         
         {/* Header */}
@@ -97,11 +97,11 @@ export const BonosSection: React.FC = () => {
               <div className="flex-1 flex flex-col justify-between min-w-0 text-center sm:text-left w-full">
                 <div>
                   {/* Title & Strikethrough Price */}
-                  <div className="flex flex-wrap items-center justify-center sm:justify-between gap-1 mb-1">
+                  <div className="flex flex-wrap items-center justify-center sm:justify-between gap-1.5 mb-1">
                     <h3 className="text-sm sm:text-base font-black text-[#174C38] leading-snug break-words">
                       {bono.title}
                     </h3>
-                    <span className="text-[10px] font-black uppercase tracking-wider text-[#174C38] bg-[#E8EFE6] px-2 py-0.5 rounded-full whitespace-nowrap">
+                    <span className="text-[10px] font-black uppercase tracking-wider text-[#174C38] bg-[#E8EFE6] px-2 py-0.5 rounded-full">
                       Totalmente Gratis
                     </span>
                   </div>
@@ -149,7 +149,7 @@ export const BonosSection: React.FC = () => {
                 Valor acumulado de los 4 bonos de regalo:
               </p>
               <p className="text-xs sm:text-sm font-semibold text-[#3B5B4E] break-words">
-                Suman <span className="line-through font-bold text-neutral-500">USD 21</span> en contenido que te llevas <span className="font-black text-[#174C38]">GRATIS</span> hoy con Radar de Comidas.
+                Suman <span className="line-through font-bold text-neutral-500">USD 38</span> en herramientas que te llevas <span className="font-black text-[#174C38]">GRATIS</span> hoy con Radar de Comidas.
               </p>
             </div>
           </div>
@@ -165,13 +165,13 @@ export const BonosSection: React.FC = () => {
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-8 py-3.5 sm:py-4 rounded-full shadow-lg shadow-[#D9532F]/20 active:scale-[0.98] transition-all cursor-pointer group"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-8 sm:px-10 py-4 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Quiero la mini-app + los 4 bonos por $5 USD</span>
+            <span>Quiero la mini-app y los 4 bonos por $5 USD</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
           <p className="text-[11px] sm:text-xs text-[#527263] font-medium mt-2.5">
-            Recibes acceso instantáneo a los 4 bonos en formato digital en tu correo tras el pago.
+            Recibes acceso instantáneo a los 4 bonos interactivos en tu correo tras el pago.
           </p>
         </div>
 
