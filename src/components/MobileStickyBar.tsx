@@ -28,7 +28,7 @@ export const MobileStickyBar: React.FC = () => {
         <div className="min-w-0 flex-1">
           <div className="flex items-baseline gap-1.5">
             <span className="text-xl font-black text-[#174C38] leading-none tabular-nums">
-              $5 USD
+              $4,99 USD
             </span>
             <span className="text-xs text-neutral-400 line-through">
               $29
@@ -39,7 +39,7 @@ export const MobileStickyBar: React.FC = () => {
           </div>
           <p className="text-[10px] text-[#557567] font-semibold truncate flex items-center gap-1 mt-1">
             <ShieldCheck className="w-3 h-3 text-emerald-600 shrink-0" />
-            <span>Acceso vitalicio · 7 días garantía</span>
+            <span>Entrega inmediata · 7 días garantía</span>
           </p>
         </div>
 
@@ -47,9 +47,9 @@ export const MobileStickyBar: React.FC = () => {
           href={HOTMART_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-1.5 bg-[#D9532F] hover:bg-[#C44522] active:bg-[#B33B1A] text-white font-black text-xs px-5 py-3 rounded-full shadow-md active:scale-95 transition-all shrink-0 cursor-pointer"
+          className="inline-flex items-center justify-center gap-1.5 bg-[#D9532F] hover:bg-[#C44522] active:bg-[#B33B1A] text-white font-black text-xs px-4 sm:px-5 py-3 rounded-full shadow-md active:scale-95 transition-all shrink-0 cursor-pointer"
         >
-          <span>Comprar ahora</span>
+          <span>Comprar por $4,99</span>
           <ArrowRight className="w-3.5 h-3.5 shrink-0" />
         </a>
       </div>

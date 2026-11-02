@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Clock, CheckCircle2 } from 'lucide-react';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -46,13 +47,13 @@ export const HeroSection: React.FC = () => {
                 </span>
               </div>
 
-              {/* Price comparison: De $29 por $5 */}
+              {/* Price comparison: De $29 por $4,99 */}
               <div className="flex flex-wrap items-baseline gap-2 sm:gap-3 mb-2">
                 <span className="text-sm sm:text-base font-bold text-neutral-400 line-through">
                   De $29 USD
                 </span>
                 <span className="text-3xl sm:text-5xl font-black text-[#174C38] tracking-tight tabular-nums">
-                  por $5 USD
+                  por $4,99 USD
                 </span>
                 <span className="text-xs font-bold text-[#557567] bg-[#F2F7F0] px-2 py-0.5 rounded-md">
                   Sin mensualidades
@@ -60,7 +61,7 @@ export const HeroSection: React.FC = () => {
               </div>
 
               <p className="text-xs sm:text-sm text-[#355749] font-semibold mb-4 leading-relaxed">
-                Pagas menos que un café para resolver tus comidas de todo el mes.
+                Pagas menos que un café para resolver tus comidas de todo el mes junto a tus 4 bonos de regalo.
               </p>
 
               {/* High-Contrast Conversion CTA Button WITHOUT BRACKETS */}
@@ -70,19 +71,12 @@ export const HeroSection: React.FC = () => {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-7 sm:px-9 py-4 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl hover:shadow-[#D9532F]/35 active:scale-[0.98] transition-all cursor-pointer text-center group"
               >
-                <span>Quiero mi Radar de Comidas ahora</span>
+                <span>Quiero mi Radar de Comidas por $4,99 USD</span>
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
               </a>
 
-              <div className="mt-3.5 pt-3 border-t border-[#F0F4EE] flex flex-wrap items-center justify-between gap-2 text-[11px] font-semibold text-[#557567]">
-                <span className="flex items-center gap-1.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 shrink-0" />
-                  Entrega digital inmediata a tu correo
-                </span>
-                <span className="text-emerald-700 font-bold flex items-center gap-1">
-                  🛡️ Garantía incondicional de 7 días
-                </span>
-              </div>
+              {/* Sellos de garantía y micro-copy de entrega inmediata pegados al botón */}
+              <TrustMicrocopy theme="light" />
             </div>
 
             {/* Power Bullets from Bloque 2 */}
@@ -134,7 +128,7 @@ export const HeroSection: React.FC = () => {
                   <span className="text-[10px] text-[#557567]">Con lo que ya tienes</span>
                 </div>
                 <div className="p-2 rounded-xl bg-[#FAF5EE] border border-[#F2DECE]">
-                  <span className="block text-[11px] font-black text-[#A84224]">$5 USD Único</span>
+                  <span className="block text-[11px] font-black text-[#A84224]">$4,99 USD Único</span>
                   <span className="text-[10px] text-[#7A5B49]">Vitalicio sin cuotas</span>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check, ArrowRight, ShieldCheck } from 'lucide-react';
 import { ScarcityCounter } from './ScarcityCounter';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -109,7 +110,7 @@ export const LoQuePuedesResolver: React.FC = () => {
             OFERTA VITALICIA
           </div>
           <p className="text-xs sm:text-sm font-bold text-emerald-200/90 mb-1">
-            De <span className="line-through text-emerald-300/60">$29 USD</span> por solo <span className="text-white font-black text-base sm:text-lg">$5 USD</span> · Pago único
+            De <span className="line-through text-emerald-300/60">$29 USD</span> por solo <span className="text-white font-black text-base sm:text-lg">$4,99 USD</span> · Pago único
           </p>
           <h3 className="text-lg sm:text-2xl font-black text-white mb-5 max-w-lg mx-auto">
             Pagas menos que un café para resolver tus comidas de todo el mes.
@@ -120,9 +121,12 @@ export const LoQuePuedesResolver: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-8 sm:px-10 py-4 rounded-full shadow-lg shadow-[#D9532F]/30 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Quiero mi Radar de Comidas ahora</span>
+            <span>Quiero mi Radar de Comidas por $4,99 USD</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 text-white shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
+
+          {/* Sellos gráficos de garantía y micro-copy de entrega inmediata pegados al botón */}
+          <TrustMicrocopy theme="dark" />
         </div>
 
       </div>

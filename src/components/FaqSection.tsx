@@ -20,7 +20,7 @@ export const FaqSection: React.FC = () => {
     },
     {
       question: "¿Tengo que pagar mensualidades o renovaciones?",
-      answer: "No pagas nunca más. Es un pago único de 5 dólares que te da acceso de por vida a la herramienta y a los cuatro bonos.",
+      answer: "No pagas nunca más. Es un pago único de 4,99 dólares que te da acceso de por vida a la herramienta y a los cuatro bonos.",
     },
     {
       question: "¿Cómo recibo el acceso después del pago?",

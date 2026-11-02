@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -32,13 +33,12 @@ export const CierreSection: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-lg px-8 py-4.5 rounded-full shadow-xl shadow-[#D9532F]/25 hover:shadow-2xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Acceder al Radar y resolver mis cenas</span>
+            <span>Acceder al Radar + 4 Bonos por $4,99 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
-          <p className="text-xs text-[#527263] font-semibold mt-3 flex items-center justify-center gap-1.5">
-            <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>Pago único de $5 USD · Garantía incondicional de 7 días</span>
-          </p>
+
+          {/* Sellos de garantía y micro-copy de entrega inmediata pegados al botón */}
+          <TrustMicrocopy theme="warm" />
         </div>
       </div>
     </section>

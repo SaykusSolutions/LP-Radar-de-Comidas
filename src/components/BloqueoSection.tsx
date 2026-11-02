@@ -46,30 +46,56 @@ export const BloqueoSection: React.FC = () => {
               LA PARÁLISIS DE LA NEVERA
             </h2>
 
-            <div className="space-y-4 sm:space-y-6 text-sm sm:text-lg font-normal leading-relaxed text-[#2B4B3D]">
-              <p className="break-words">
-                Llegas a casa con el cuerpo molido y la cabeza agotada. Abres la nevera con hambre y sientes frustración: no hay nada listo y pensar una receta se siente como un castigo.
-              </p>
-
+            {/* Scannable Breakdown: Anti-Fatigue Bullet Points */}
+            <div className="space-y-4 text-xs sm:text-base font-medium text-[#2B4B3D]">
+              
+              {/* Highlight Diagnosis Card */}
               <div className="p-4 sm:p-5 rounded-2xl bg-white border border-[#D5E1D3] shadow-xs text-[#174C38]">
-                <p className="font-semibold text-[#174C38] break-words">
-                  Este bloqueo tiene nombre: <span className="text-[#174C38] font-black underline decoration-[#D97757] decoration-2">Fatiga de Decisión Nocturna</span>. Tu cerebro tomó cientos de decisiones durante el día y colapsa cuando debe inventar una cena con lo que encuentra.
+                <p className="font-bold text-[#174C38] text-sm sm:text-lg break-words leading-snug">
+                  Tu bloqueo tiene nombre: <span className="underline decoration-[#D97757] decoration-2 font-black">Fatiga de Decisión Nocturna</span>.
+                </p>
+                <p className="text-xs sm:text-sm text-[#446556] mt-1.5 font-normal">
+                  Tu mente tomó cientos de decisiones durante el día y colapsa cuando debe inventar una cena con lo que encuentra en la nevera.
                 </p>
               </div>
 
-              <p className="break-words">
-                Los menús de internet fallan porque exigen ingredientes que no tienes. No es falta de fuerza de voluntad: el método tradicional te obliga a pensar cuando menos energía tienes.
-              </p>
+              {/* Three Crisp Pain Reality Bullets */}
+              <div className="space-y-2.5">
+                <div className="flex items-start gap-2.5 p-3 rounded-xl bg-white/70 border border-[#DEE7DC]">
+                  <span className="text-[#D9532F] font-black text-sm shrink-0">✕</span>
+                  <span className="text-xs sm:text-sm text-[#274538]">
+                    <strong>El recetario tradicional falla:</strong> te exige compras caras de último minuto y tiempo que no tienes.
+                  </span>
+                </div>
+                <div className="flex items-start gap-2.5 p-3 rounded-xl bg-white/70 border border-[#DEE7DC]">
+                  <span className="text-[#D9532F] font-black text-sm shrink-0">✕</span>
+                  <span className="text-xs sm:text-sm text-[#274538]">
+                    <strong>No es falta de fuerza de voluntad:</strong> es un método obsoleto que te obliga a pensar cuando menos energía te queda.
+                  </span>
+                </div>
+              </div>
 
-              {/* Bloque 6: La Solución */}
-              <div className="p-5 rounded-2xl bg-[#DFE9DE] border border-[#CCDCCD] text-xs sm:text-base text-[#174C38] font-medium space-y-2">
-                <span className="font-black text-[#174C38] block text-sm sm:text-base uppercase tracking-wide">
-                  Cómo Funciona: ALGORITMO DE DESPENSA INVERSA
+              {/* Bloque 6: La Solución en Viñetas Cortas */}
+              <div className="p-4 sm:p-5 rounded-2xl bg-[#DFE9DE] border border-[#CCDCCD] space-y-2.5">
+                <span className="font-black text-[#174C38] block text-xs sm:text-sm uppercase tracking-wider">
+                  El Antídoto: ALGORITMO DE DESPENSA INVERSA
                 </span>
-                <p className="leading-relaxed">
-                  Tú marcas en la pantalla tres ingredientes que ya tienes en casa. El sistema descarta recetas complicadas y calcula tres combinaciones directas en segundos. Recibes platos reales para cocinar hoy con tus propios tiempos. Sin compras de último momento. Sin recetas de chef imposibles.
-                </p>
+                <div className="space-y-2 text-xs sm:text-sm text-[#174C38]">
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-700 font-bold shrink-0">✓</span>
+                    <span><strong>Tú marcas:</strong> tres ingredientes que ya tienes en casa.</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-700 font-bold shrink-0">✓</span>
+                    <span><strong>El sistema descarta:</strong> lo complicado y calcula tres opciones directas en segundos.</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-emerald-700 font-bold shrink-0">✓</span>
+                    <span><strong>Recibes:</strong> comida rica para preparar hoy con tu tiempo real, sin recetas de chef imposibles.</span>
+                  </div>
+                </div>
               </div>
+
             </div>
 
           </div>

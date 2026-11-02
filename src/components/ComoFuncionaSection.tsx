@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { ArrowRight, ChefHat, Clock, RefreshCw } from 'lucide-react';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -253,15 +254,23 @@ export const ComoFuncionaSection: React.FC = () => {
           <p className="text-xs sm:text-sm font-bold tracking-widest uppercase text-[#557567] mb-2">
             La Solución Concreta
           </p>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#174C38] mb-3 sm:mb-5 break-words [text-wrap:balance]">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#174C38] mb-3 sm:mb-4 break-words [text-wrap:balance]">
             Cómo funciona: Radar de Comidas
           </h2>
-          <p className="text-sm sm:text-lg font-semibold text-[#174C38] leading-relaxed mb-2 sm:mb-3 break-words">
-            En lugar de darte otro menú fijo, te ayuda a decidir con lo que tienes y lo que puedes hacer hoy.
-          </p>
-          <p className="text-xs sm:text-base font-normal text-[#3E5E50] leading-relaxed break-words">
-            Tú indicas tus ingredientes, tiempo y preferencias. El sistema organiza las opciones y recibes tres ideas sencillas, sin contar calorías ni seguir reglas rígidas.
-          </p>
+          <div className="max-w-xl mx-auto flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm font-semibold text-[#2C4B3E]">
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+              Sin menús rígidos
+            </span>
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+              Con lo que ya tienes
+            </span>
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+              3 opciones en 3 minutos
+            </span>
+          </div>
         </div>
 
         {/* CÓMO FUNCIONA EL MÉTODO */}
@@ -508,24 +517,27 @@ export const ComoFuncionaSection: React.FC = () => {
               </div>
 
               {/* Direct Hotmart link banner */}
-              <div className="mt-4 pt-3.5 border-t border-[#EAEFE8] flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left bg-[#F4F8F2] p-3 sm:p-4 rounded-2xl border border-[#DFEADC]">
-                <div className="min-w-0 flex-1">
-                  <span className="text-xs sm:text-sm text-[#174C38] font-black block">
-                    ¿Viste lo rápido que encontraste tu menú?
+              <div className="mt-4 pt-3.5 border-t border-[#EAEFE8] flex flex-col items-center text-center bg-[#F4F8F2] p-4 sm:p-5 rounded-2xl border border-[#DFEADC]">
+                <div className="mb-3 max-w-lg">
+                  <span className="text-sm sm:text-base text-[#174C38] font-black block">
+                    ¿Viste lo rápido que encontraste tu comida?
                   </span>
-                  <span className="text-[11px] sm:text-xs text-[#446556] font-medium block">
-                    Acceso vitalicio a la herramienta y a los cuatro bonos por un solo pago de $5 USD.
+                  <span className="text-xs text-[#446556] font-medium block mt-1">
+                    Acceso vitalicio a la mini-app y a los 4 bonos de regalo por un solo pago de <strong className="text-[#174C38] font-black">$4,99 USD</strong>.
                   </span>
                 </div>
                 <a
                   href={HOTMART_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-5 py-3 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer transition-all shrink-0 text-center"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-7 py-3.5 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer transition-all text-center"
                 >
-                  <span>Eliminar el estrés de cocinar por $5</span>
+                  <span>Quiero mi Radar de Comidas por $4,99 USD</span>
                   <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />
                 </a>
+
+                {/* Sellos de garantía y micro-copy de entrega inmediata pegados al botón */}
+                <TrustMicrocopy theme="light" />
               </div>
             </div>
 

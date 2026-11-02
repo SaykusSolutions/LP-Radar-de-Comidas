@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Lock, Sparkles, ShieldCheck } from 'lucide-react';
 import { ScarcityCounter } from './ScarcityCounter';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -115,7 +116,7 @@ export const ResumenAccesoSection: React.FC = () => {
               De $29 USD por solo
             </p>
             <div className="text-4xl sm:text-6xl font-black text-[#174C38] tracking-tight my-2 tabular-nums">
-              $5 USD
+              $4,99 USD
             </div>
             <p className="text-xs sm:text-sm text-[#D9532F] font-bold mb-1">
               Un solo pago para siempre sin suscripciones
@@ -130,28 +131,18 @@ export const ResumenAccesoSection: React.FC = () => {
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-xl py-4 sm:py-5 px-6 rounded-full shadow-xl shadow-[#D9532F]/30 hover:shadow-2xl active:scale-[0.98] transition-all cursor-pointer text-center mb-4 group"
+            className="w-full inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-xl py-4 sm:py-5 px-6 rounded-full shadow-xl shadow-[#D9532F]/30 hover:shadow-2xl active:scale-[0.98] transition-all cursor-pointer text-center mb-2 group"
           >
-            <span>Quiero mi acceso vitalicio por $5 USD</span>
+            <span>Quiero mi acceso vitalicio por $4,99 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 
-          {/* Contador de escasez dinámico */}
-          <div className="flex justify-center mb-5">
-            <ScarcityCounter />
-          </div>
+          {/* Sellos de garantía y micro-copy de entrega inmediata pegados al botón */}
+          <TrustMicrocopy theme="dark" className="mb-4" />
 
-          {/* Reassurances & Trust Badges */}
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 text-[11px] sm:text-xs font-semibold text-emerald-200/90 text-center">
-            <span className="flex items-center gap-1.5">
-              <Lock className="w-3.5 h-3.5 text-emerald-300 shrink-0" /> Hotmart® SSL 256-bit
-            </span>
-            <span aria-hidden="true" className="hidden sm:inline text-emerald-700">·</span>
-            <span className="flex items-center gap-1">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-300 shrink-0" /> Garantía incondicional de 7 días
-            </span>
-            <span aria-hidden="true" className="hidden sm:inline text-emerald-700">·</span>
-            <span>Entrega digital inmediata</span>
+          {/* Contador de escasez dinámico */}
+          <div className="flex justify-center">
+            <ScarcityCounter />
           </div>
 
         </div>

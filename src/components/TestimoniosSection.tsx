@@ -31,7 +31,7 @@ export const TestimoniosSection: React.FC = () => {
       avatarBg: "bg-[#D97757]",
       initials: "RC",
       highlight: "Dejé de tirar comida podrida",
-      quote: "Siempre compraba verduras con buenas intenciones y terminaban podridas al fondo de la gaveta. Ahora marco lo que me va quedando y el algoritmo me da la receta exacta. Los 5 dólares se pagaron solos la primera noche.",
+      quote: "Siempre compraba verduras con buenas intenciones y terminaban podridas al fondo de la gaveta. Ahora marco lo que me va quedando y el algoritmo me da la receta exacta. Los 4,99 dólares se pagaron solos la primera noche.",
       timeAgo: "Hace 1 semana",
     },
     {

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { ArrowRight, Flame, ShieldCheck } from 'lucide-react';
-import { ScarcityCounter } from './ScarcityCounter';
+import React from 'react';
+import { ArrowRight, Flame } from 'lucide-react';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -38,14 +38,12 @@ export const UrgenciaSection: React.FC = () => {
             rel="noopener noreferrer"
             className="w-full inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-lg px-8 py-4.5 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Eliminar el estrés de cocinar por $5</span>
+            <span>Eliminar el estrés de cocinar por $4,99 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
 
-          <div className="mt-4 flex items-center justify-center gap-2 text-xs text-[#527263] font-semibold">
-            <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>Pago único de $5 USD · Acceso vitalicio inmediato</span>
-          </div>
+          {/* Sellos de garantía y micro-copy de entrega inmediata pegados al botón */}
+          <TrustMicrocopy theme="warm" />
         </div>
 
       </div>

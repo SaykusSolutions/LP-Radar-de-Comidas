@@ -1,5 +1,6 @@
 import React from 'react';
 import { Gift, Zap, Repeat, ShoppingCart, HeartHandshake, ArrowRight } from 'lucide-react';
+import { TrustMicrocopy } from './TrustMicrocopy';
 
 const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
@@ -160,19 +161,19 @@ export const BonosSection: React.FC = () => {
         </div>
 
         {/* High Conversion Action after seeing the 4 bonuses */}
-        <div className="mt-8 text-center">
+        <div className="mt-8 text-center max-w-lg mx-auto">
           <a
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-sm sm:text-base px-8 sm:px-10 py-4 rounded-full shadow-lg shadow-[#D9532F]/25 hover:shadow-xl active:scale-[0.98] transition-all cursor-pointer group"
           >
-            <span>Quiero la mini-app y los 4 bonos por $5 USD</span>
+            <span>Quiero la mini-app y los 4 bonos por $4,99 USD</span>
             <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 group-hover:translate-x-1 transition-transform" />
           </a>
-          <p className="text-[11px] sm:text-xs text-[#527263] font-medium mt-2.5">
-            Recibes acceso instantáneo a los 4 bonos interactivos en tu correo tras el pago.
-          </p>
+
+          {/* Sellos gráficos de garantía y micro-copy de entrega inmediata pegados al botón */}
+          <TrustMicrocopy theme="light" />
         </div>
 
       </div>
