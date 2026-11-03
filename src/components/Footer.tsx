@@ -4,7 +4,7 @@ const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="w-full max-w-full overflow-x-clip bg-[#0D2B20] text-emerald-100/70 py-10 sm:py-12 border-t border-[#092017]">
+    <footer className="w-full max-w-full overflow-x-clip bg-[#06291E] text-emerald-100/70 py-10 sm:py-12 border-t border-[#041D15]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-5 sm:gap-6 text-center sm:text-left">
         <div>
           <div className="flex items-center justify-center sm:justify-start gap-2.5 mb-1.5">
@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-white transition-colors font-bold text-white underline decoration-[#D97757] decoration-2"
+            className="hover:text-white transition-colors font-bold text-amber-300 underline decoration-[#FF5722] decoration-2"
           >
             Oferta $4,99 USD
           </a>

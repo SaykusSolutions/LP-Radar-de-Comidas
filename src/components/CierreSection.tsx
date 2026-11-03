@@ -6,22 +6,25 @@ const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
 
 export const CierreSection: React.FC = () => {
   return (
-    <section className="relative w-full max-w-full overflow-x-clip bg-[#FAF6F0] text-[#174C38] py-10 sm:py-20 border-b border-[#EBE3D7]">
+    <section className="relative w-full max-w-full overflow-x-clip bg-[#FAF9F5] text-neutral-900 py-12 sm:py-20 border-b border-[#E8E4DA]">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-        <h2 className="text-xl sm:text-3xl md:text-4xl font-black uppercase tracking-tight text-[#174C38] mb-6 leading-tight break-words [text-wrap:balance]">
+        <div className="inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-xs font-black uppercase tracking-wider mb-4">
+          La decisión de hoy
+        </div>
+        <h2 className="text-2xl sm:text-4xl md:text-5xl font-black uppercase tracking-tight text-neutral-900 mb-6 leading-tight break-words [text-wrap:balance]">
           TIENES DOS CAMINOS HOY
         </h2>
 
         {/* 3 lines contrasting the 2 choices */}
-        <div className="space-y-4 text-base sm:text-xl font-medium text-[#2C4A3E] leading-relaxed mb-8 max-w-2xl mx-auto">
-          <p className="text-[#A84224] font-semibold">
-            Seguir igual significa otra noche con hambre frente a la nevera abierta.
+        <div className="space-y-4 text-base sm:text-xl font-medium text-neutral-700 leading-relaxed mb-8 max-w-2xl mx-auto">
+          <p className="text-[#FF5722] font-bold">
+            Seguir igual significa otra noche llegando cansada a casa con hambre frente a la nevera abierta.
           </p>
           <p>
-            O puedes tener en tu teléfono la herramienta que decide tu cena en tres minutos.
+            O puedes tener en tu teléfono la herramienta que decide tu comida en tres minutos con lo que ya tienes.
           </p>
-          <p className="font-bold text-[#174C38]">
-            La tranquilidad de llegar a casa y cenar sin estrés está al alcance de un toque.
+          <p className="font-black text-neutral-900">
+            La tranquilidad de abrir la puerta y cenar sin estrés está a un toque de distancia.
           </p>
         </div>
 
@@ -31,7 +34,7 @@ export const CierreSection: React.FC = () => {
             href={HOTMART_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full inline-flex items-center justify-center gap-3 bg-[#D9532F] hover:bg-[#C44522] text-white font-black text-base sm:text-lg px-8 py-4.5 rounded-full shadow-xl shadow-[#D9532F]/25 hover:shadow-2xl active:scale-[0.98] transition-all cursor-pointer group"
+            className="w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF5722] via-[#F4511E] to-[#EA580C] hover:from-[#F4511E] hover:to-[#C2410C] active:scale-[0.98] text-white font-black text-base sm:text-lg px-8 py-5 rounded-full shadow-2xl shadow-[#FF5722]/35 transition-all cursor-pointer group"
           >
             <span>Acceder al Radar + 4 Bonos por $4,99 USD</span>
             <ArrowRight className="w-5 h-5 shrink-0 group-hover:translate-x-1 transition-transform" />

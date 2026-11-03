@@ -246,27 +246,27 @@ export const ComoFuncionaSection: React.FC = () => {
   };
 
   return (
-    <section id="como-funciona" className="relative w-full max-w-full overflow-x-clip bg-white text-[#174C38] py-10 sm:py-20 border-b border-[#E3E9DF]">
+    <section id="como-funciona" className="relative w-full max-w-full overflow-x-clip bg-gradient-to-b from-[#FAF6EE] via-[#FFFDF9] to-[#F5EFE6] text-neutral-900 py-10 sm:py-20 border-b border-[#E8DFC8]">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         
         {/* Intro Header */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
-          <p className="text-xs sm:text-sm font-bold tracking-widest uppercase text-[#557567] mb-2">
+          <p className="text-xs sm:text-sm font-black tracking-widest uppercase text-[#EA580C] mb-2">
             La Solución Concreta
           </p>
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-[#174C38] mb-3 sm:mb-4 break-words [text-wrap:balance]">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-neutral-900 mb-3 sm:mb-4 break-words [text-wrap:balance]">
             Cómo funciona: Radar de Comidas
           </h2>
-          <div className="max-w-xl mx-auto flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm font-semibold text-[#2C4B3E]">
-            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
+          <div className="max-w-xl mx-auto flex flex-wrap justify-center gap-2 sm:gap-4 text-xs sm:text-sm font-semibold text-neutral-700">
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-2xs">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
               Sin menús rígidos
             </span>
-            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-2xs">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#EA580C]" />
               Con lo que ya tienes
             </span>
-            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-[#D8E4D5] shadow-2xs">
+            <span className="inline-flex items-center gap-1.5 bg-white px-3 py-1 rounded-full border border-neutral-200 shadow-2xs">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-600" />
               3 opciones en 3 minutos
             </span>
@@ -276,74 +276,74 @@ export const ComoFuncionaSection: React.FC = () => {
         {/* CÓMO FUNCIONA EL MÉTODO */}
         <div className="mb-10 sm:mb-16">
           <div className="text-center mb-6 sm:mb-10">
-            <h3 className="text-xl sm:text-3xl font-black uppercase tracking-tight text-[#174C38] break-words">
+            <h3 className="text-xl sm:text-3xl font-black uppercase tracking-tight text-neutral-900 break-words">
               CÓMO FUNCIONA EL MÉTODO
             </h3>
-            <p className="text-xs sm:text-base font-medium text-[#4D6C5E] mt-1.5 sm:mt-2 break-words">
+            <p className="text-xs sm:text-base font-medium text-neutral-600 mt-1.5 sm:mt-2 break-words">
               Tres pasos simples para salir del bloqueo nocturno y cenar tranquilo.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-3.5 sm:gap-6">
             {/* Step 1 */}
-            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-white border border-neutral-200 shadow-xs flex flex-col w-full max-w-full">
               <div className="flex items-center justify-between mb-3 sm:mb-5">
-                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#0B3B2C] to-[#14532D] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-sm">
                   1
                 </span>
-                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#557567]">
+                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
                   Input
                 </span>
               </div>
-              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+              <h4 className="text-sm sm:text-base font-black text-neutral-900 uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
                 PASO 01: INPUT
               </h4>
-              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+              <p className="text-xs sm:text-sm font-medium text-neutral-600 leading-relaxed break-words">
                 Seleccionas en pantalla los alimentos que tienes a mano y los minutos disponibles.
               </p>
             </div>
 
             {/* Step 2 */}
-            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#E8EFE6] border-2 border-[#174C38]/40 shadow-xs flex flex-col w-full max-w-full">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#FFF9F4] border border-orange-200 shadow-xs flex flex-col w-full max-w-full">
               <div className="flex items-center justify-between mb-3 sm:mb-5">
-                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#FF5722] to-[#EA580C] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-sm">
                   2
                 </span>
-                <span className="text-[11px] sm:text-xs font-black uppercase tracking-wider text-[#174C38]">
+                <span className="text-[11px] sm:text-xs font-black uppercase tracking-wider text-[#C2410C] bg-[#FFF3EA] px-2 py-0.5 rounded-full border border-[#FED7AA]">
                   Tecnología
                 </span>
               </div>
-              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+              <h4 className="text-sm sm:text-base font-black text-neutral-900 uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
                 PASO 02: TECNOLOGÍA
               </h4>
-              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+              <p className="text-xs sm:text-sm font-medium text-neutral-600 leading-relaxed break-words">
                 El algoritmo cruza tus alimentos con combinaciones prácticas y descarta lo que te roba tiempo.
               </p>
             </div>
 
             {/* Step 3 */}
-            <div className="relative p-4 sm:p-7 rounded-2xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-xs flex flex-col w-full max-w-full">
+            <div className="relative p-4 sm:p-7 rounded-2xl bg-white border border-neutral-200 shadow-xs flex flex-col w-full max-w-full">
               <div className="flex items-center justify-between mb-3 sm:mb-5">
-                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-[#174C38] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-xs">
+                <span className="w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#15803D] to-[#16A34A] text-white font-black text-lg sm:text-xl flex items-center justify-center shadow-sm">
                   3
                 </span>
-                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-[#557567]">
+                <span className="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
                   Output
                 </span>
               </div>
-              <h4 className="text-sm sm:text-base font-black text-[#174C38] uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
+              <h4 className="text-sm sm:text-base font-black text-neutral-900 uppercase tracking-tight mb-1.5 sm:mb-2 break-words">
                 PASO 03: OUTPUT
               </h4>
-              <p className="text-xs sm:text-sm font-normal text-[#2C4B3E] leading-relaxed break-words">
+              <p className="text-xs sm:text-sm font-medium text-neutral-600 leading-relaxed break-words">
                 Eliges una de las tres opciones claras y preparas tu comida sin vueltas.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Dynamic Interactive Simulator with mobile safety */}
-        <div className="p-4 sm:p-8 rounded-3xl bg-[#F6F8F3] border border-[#E0E7DC] shadow-sm w-full max-w-full">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 pb-3.5 sm:pb-5 mb-4 sm:mb-6 border-b border-[#E0E7DC]">
+        {/* Dynamic Interactive Simulator with appetizing culinary styling */}
+        <div className="p-4 sm:p-8 rounded-3xl bg-white border-2 border-[#EAE1D2] shadow-xl shadow-orange-950/5 w-full max-w-full">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-4 pb-3.5 sm:pb-5 mb-4 sm:mb-6 border-b border-[#EAE2D2]">
             <div>
               <div className="flex items-center gap-2 mb-1">
                 <img 
@@ -351,31 +351,31 @@ export const ComoFuncionaSection: React.FC = () => {
                   alt="Icono Radar de Comidas" 
                   className="w-4 h-4 object-contain shrink-0"
                 />
-                <span className="text-[#174C38] font-black text-[11px] sm:text-xs uppercase tracking-widest">
+                <span className="text-[#EA580C] font-black text-[11px] sm:text-xs uppercase tracking-widest">
                   Simulación Dinámica en Tiempo Real
                 </span>
               </div>
-              <h4 className="text-base sm:text-2xl font-black text-[#174C38] break-words">
+              <h4 className="text-base sm:text-2xl font-black text-neutral-900 break-words">
                 Haz la prueba con lo que tienes hoy en tu cocina
               </h4>
             </div>
-            <span className="text-[11px] sm:text-xs font-bold text-[#557567]">
-              Cambia ingredientes y las recetas cambian
+            <span className="text-[11px] sm:text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+              Cambia ingredientes y las recetas se actualizan
             </span>
           </div>
 
           <div className="grid lg:grid-cols-12 gap-5 sm:gap-8 items-start w-full max-w-full">
             
             {/* Input Controls */}
-            <div className="lg:col-span-5 space-y-4 sm:space-y-6 bg-white p-4 sm:p-6 rounded-2xl border border-[#E0E7DC] w-full max-w-full">
+            <div className="lg:col-span-5 space-y-4 sm:space-y-6 bg-[#FAF9F5] p-4 sm:p-6 rounded-2xl border border-neutral-200 w-full max-w-full">
               
               {/* 1. Ingredients */}
               <div>
                 <div className="flex items-center justify-between mb-2">
-                  <label className="text-xs font-black uppercase tracking-wider text-[#174C38]">
+                  <label className="text-xs font-black uppercase tracking-wider text-neutral-900">
                     1. Elige ingredientes:
                   </label>
-                  <span className="text-[11px] font-bold text-[#D97757]">
+                  <span className="text-[11px] font-bold text-[#EA580C]">
                     {selectedIngredients.length} elegidos
                   </span>
                 </div>
@@ -388,8 +388,8 @@ export const ComoFuncionaSection: React.FC = () => {
                         onClick={() => toggleIngredient(ing)}
                         className={`text-xs font-bold px-3 py-2 rounded-xl transition-all cursor-pointer active:scale-95 select-none ${
                           isSelected
-                            ? 'bg-[#174C38] text-white font-black shadow-xs'
-                            : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
+                            ? 'bg-gradient-to-r from-[#FF5722] to-[#EA580C] text-white font-black shadow-xs'
+                            : 'bg-white text-neutral-700 hover:bg-neutral-100 border border-neutral-300'
                         }`}
                       >
                         {isSelected ? '✓ ' : '+ '} {ing}
@@ -401,7 +401,7 @@ export const ComoFuncionaSection: React.FC = () => {
 
               {/* 2. Time */}
               <div>
-                <label className="block text-xs font-black uppercase tracking-wider text-[#174C38] mb-2">
+                <label className="block text-xs font-black uppercase tracking-wider text-neutral-900 mb-2">
                   2. ¿Cuánto tiempo tienes?
                 </label>
                 <div className="grid grid-cols-3 gap-2">
@@ -411,8 +411,8 @@ export const ComoFuncionaSection: React.FC = () => {
                       onClick={() => setTimeAvailable(time)}
                       className={`text-xs font-bold py-2.5 rounded-xl transition-all cursor-pointer text-center active:scale-95 ${
                         timeAvailable === time
-                          ? 'bg-[#174C38] text-white font-black shadow-xs'
-                          : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
+                          ? 'bg-gradient-to-r from-[#0B3B2C] to-[#164E3D] text-white font-black shadow-xs'
+                          : 'bg-white text-neutral-700 hover:bg-neutral-100 border border-neutral-300'
                       }`}
                     >
                       {time}
@@ -423,7 +423,7 @@ export const ComoFuncionaSection: React.FC = () => {
 
               {/* 3. Cooking Preference */}
               <div>
-                <label className="block text-xs font-black uppercase tracking-wider text-[#174C38] mb-2">
+                <label className="block text-xs font-black uppercase tracking-wider text-neutral-900 mb-2">
                   3. Tu preferencia de hoy:
                 </label>
                 <div className="grid grid-cols-2 gap-2">
@@ -431,8 +431,8 @@ export const ComoFuncionaSection: React.FC = () => {
                     onClick={() => setCookingPreference('cocinar')}
                     className={`text-xs font-bold py-2.5 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight active:scale-95 ${
                       cookingPreference === 'cocinar'
-                        ? 'bg-[#174C38] text-white font-black'
-                        : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
+                        ? 'bg-gradient-to-r from-[#0B3B2C] to-[#164E3D] text-white font-black'
+                        : 'bg-white text-neutral-700 hover:bg-neutral-100 border border-neutral-300'
                     }`}
                   >
                     Cocinar caliente
@@ -441,8 +441,8 @@ export const ComoFuncionaSection: React.FC = () => {
                     onClick={() => setCookingPreference('listo')}
                     className={`text-xs font-bold py-2.5 px-2 rounded-xl transition-all cursor-pointer text-center leading-tight active:scale-95 ${
                       cookingPreference === 'listo'
-                        ? 'bg-[#174C38] text-white font-black'
-                        : 'bg-[#F2F5F0] text-[#345347] hover:bg-[#E5ECE3]'
+                        ? 'bg-gradient-to-r from-[#0B3B2C] to-[#164E3D] text-white font-black'
+                        : 'bg-white text-neutral-700 hover:bg-neutral-100 border border-neutral-300'
                     }`}
                   >
                     Plato frío / express
@@ -453,7 +453,7 @@ export const ComoFuncionaSection: React.FC = () => {
               {/* Manual refresh scan button */}
               <button
                 onClick={handleTriggerScan}
-                className="w-full py-3 bg-[#E8EFE6] hover:bg-[#DDE7DA] active:scale-98 text-[#174C38] font-black text-xs uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center justify-center gap-2"
+                className="w-full py-3 bg-[#FFF3EA] hover:bg-[#FFE5D5] active:scale-98 text-[#C2410C] font-black text-xs uppercase tracking-wider rounded-xl transition-all cursor-pointer flex items-center justify-center gap-2 border border-[#FED7AA]"
               >
                 <RefreshCw className={`w-3.5 h-3.5 shrink-0 ${isSimulating ? 'animate-spin' : ''}`} />
                 <span>{isSimulating ? 'Calculando...' : 'Actualizar 3 Opciones'}</span>
@@ -462,13 +462,13 @@ export const ComoFuncionaSection: React.FC = () => {
             </div>
 
             {/* Generated Results Preview Box */}
-            <div className="lg:col-span-7 bg-white p-4 sm:p-6 rounded-2xl border border-[#E0E7DC] shadow-xs w-full max-w-full">
-              <div className="flex flex-wrap items-center justify-between gap-1 pb-3 mb-3 sm:mb-4 border-b border-[#EAEFE8]">
-                <div className="flex items-center gap-1.5 text-xs font-bold text-[#174C38]">
+            <div className="lg:col-span-7 bg-white p-4 sm:p-6 rounded-2xl border border-neutral-200 shadow-xs w-full max-w-full">
+              <div className="flex flex-wrap items-center justify-between gap-1 pb-3 mb-3 sm:mb-4 border-b border-neutral-200">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-neutral-900">
                   <span className="w-2 h-2 rounded-full bg-emerald-600 shrink-0" />
-                  <span className="break-words">3 Comidas ({timeAvailable})</span>
+                  <span className="break-words">3 Comidas Generadas ({timeAvailable})</span>
                 </div>
-                <span className="text-[10px] sm:text-[11px] font-black text-[#D97757] uppercase tracking-wider">
+                <span className="text-[10px] sm:text-[11px] font-black text-[#EA580C] uppercase tracking-wider">
                   Listas en 3 min
                 </span>
               </div>
@@ -477,39 +477,39 @@ export const ComoFuncionaSection: React.FC = () => {
                 {dynamicMeals.map((meal, index) => (
                   <div
                     key={index}
-                    className="p-3.5 sm:p-4 rounded-2xl bg-[#F9FBF8] border border-[#E2EAE0] hover:border-[#174C38]/40 transition-all w-full max-w-full"
+                    className="p-3.5 sm:p-4 rounded-2xl bg-white border border-neutral-200 hover:border-[#EA580C]/40 hover:shadow-md transition-all w-full max-w-full shadow-2xs"
                   >
                     <div className="flex flex-wrap items-center justify-between gap-1.5 mb-1.5">
-                      <h5 className="text-xs sm:text-base font-bold text-[#174C38] leading-snug break-words flex-1 min-w-[200px]">
+                      <h5 className="text-xs sm:text-base font-bold text-neutral-900 leading-snug break-words flex-1 min-w-[200px]">
                         {index + 1}. {meal.title}
                       </h5>
-                      <span className="text-[9px] sm:text-[10px] font-black text-[#174C38] bg-[#E8EFE6] px-2 py-0.5 rounded-full shrink-0">
+                      <span className="text-[9px] sm:text-[10px] font-black text-[#C2410C] bg-[#FFF3EA] px-2.5 py-0.5 rounded-full shrink-0 border border-[#FED7AA]">
                         {meal.badge}
                       </span>
                     </div>
 
-                    <p className="text-[11px] sm:text-xs text-[#3E5E50] mb-2 leading-relaxed break-words">
+                    <p className="text-[11px] sm:text-xs text-neutral-600 mb-2 leading-relaxed break-words font-medium">
                       {meal.description}
                     </p>
 
                     {/* Step-by-step preview */}
-                    <div className="bg-white p-2.5 rounded-xl border border-[#EAEFE8] text-[10px] sm:text-[11px] text-[#446556] space-y-1 mb-2">
-                      <p className="font-bold text-[#174C38] text-[10px] uppercase tracking-wider">
+                    <div className="bg-[#FAF9F5] p-2.5 rounded-xl border border-neutral-200 text-[10px] sm:text-[11px] text-neutral-700 space-y-1 mb-2">
+                      <p className="font-bold text-neutral-900 text-[10px] uppercase tracking-wider">
                         Pasos en 3 minutos:
                       </p>
                       {meal.steps.map((st, sIdx) => (
-                        <p key={sIdx} className="leading-tight break-words">
+                        <p key={sIdx} className="leading-tight break-words font-medium">
                           • {st}
                         </p>
                       ))}
                     </div>
 
-                    <div className="flex flex-wrap items-center gap-3 text-[10px] sm:text-[11px] text-[#557567] font-semibold">
-                      <span className="flex items-center gap-1 text-[#174C38]">
-                        <Clock className="w-3 h-3 text-[#D97757] shrink-0" /> {meal.time}
+                    <div className="flex flex-wrap items-center gap-3 text-[10px] sm:text-[11px] text-neutral-500 font-semibold">
+                      <span className="flex items-center gap-1 text-neutral-800">
+                        <Clock className="w-3 h-3 text-[#EA580C] shrink-0" /> {meal.time}
                       </span>
                       <span className="flex items-center gap-1">
-                        <ChefHat className="w-3 h-3 text-[#174C38] shrink-0" /> 3 pasos breves
+                        <ChefHat className="w-3 h-3 text-emerald-600 shrink-0" /> 3 pasos breves
                       </span>
                     </div>
                   </div>
@@ -517,20 +517,20 @@ export const ComoFuncionaSection: React.FC = () => {
               </div>
 
               {/* Direct Hotmart link banner */}
-              <div className="mt-4 pt-3.5 border-t border-[#EAEFE8] flex flex-col items-center text-center bg-[#F4F8F2] p-4 sm:p-5 rounded-2xl border border-[#DFEADC]">
+              <div className="mt-4 pt-3.5 border-t border-neutral-200 flex flex-col items-center text-center bg-gradient-to-br from-[#FFF7ED] via-[#FEF3C7] to-neutral-50 p-4 sm:p-5 rounded-2xl border border-amber-200">
                 <div className="mb-3 max-w-lg">
-                  <span className="text-sm sm:text-base text-[#174C38] font-black block">
+                  <span className="text-sm sm:text-base text-neutral-900 font-black block">
                     ¿Viste lo rápido que encontraste tu comida?
                   </span>
-                  <span className="text-xs text-[#446556] font-medium block mt-1">
-                    Acceso vitalicio a la mini-app y a los 4 bonos de regalo por un solo pago de <strong className="text-[#174C38] font-black">$4,99 USD</strong>.
+                  <span className="text-xs text-neutral-600 font-medium block mt-1">
+                    Acceso vitalicio a la mini-app y a los 4 bonos de regalo por un solo pago de <strong className="text-neutral-900 font-black">$4,99 USD</strong>.
                   </span>
                 </div>
                 <a
                   href={HOTMART_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#D9532F] hover:bg-[#C44522] text-white text-xs sm:text-sm font-black px-7 py-3.5 rounded-full shadow-md hover:shadow-lg active:scale-[0.98] cursor-pointer transition-all text-center"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#FF5722] via-[#F4511E] to-[#E64A19] hover:from-[#F4511E] hover:to-[#D84315] text-white text-xs sm:text-sm font-black px-7 py-3.5 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl active:scale-[0.98] cursor-pointer transition-all text-center"
                 >
                   <span>Quiero mi Radar de Comidas por $4,99 USD</span>
                   <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" />

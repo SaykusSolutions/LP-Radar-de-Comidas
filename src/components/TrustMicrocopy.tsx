@@ -13,14 +13,14 @@ export const TrustMicrocopy: React.FC<TrustMicrocopyProps> = ({ theme = 'light',
   const textColor = isDark 
     ? 'text-emerald-200' 
     : isWarm 
-    ? 'text-[#6E4230]' 
-    : 'text-[#2C4B3E]';
+    ? 'text-neutral-700' 
+    : 'text-neutral-600';
 
   const badgeBg = isDark 
     ? 'bg-emerald-950/70 text-emerald-300 border border-emerald-700/60' 
     : isWarm 
-    ? 'bg-[#F7EBE1] text-[#7A3622] border border-[#ECD1BE]' 
-    : 'bg-[#F2F7F0] text-[#2C4B3E] border border-[#DEE9DC]';
+    ? 'bg-amber-50 text-neutral-800 border border-amber-200' 
+    : 'bg-neutral-100 text-neutral-700 border border-neutral-200';
 
   return (
     <div className={`mt-3 pt-3 flex flex-col items-center gap-2 text-center w-full max-w-lg mx-auto ${className}`}>

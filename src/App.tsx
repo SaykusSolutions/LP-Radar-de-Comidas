@@ -18,7 +18,7 @@ import { MobileStickyBar } from './components/MobileStickyBar';
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full max-w-full overflow-x-clip bg-[#F6F8F3] text-[#174C38] flex flex-col font-['Montserrat',sans-serif] selection:bg-emerald-100 selection:text-[#174C38] pb-14 md:pb-0">
+    <div className="min-h-screen w-full max-w-full overflow-x-clip bg-[#FAF9F5] text-[#0F2E22] flex flex-col font-['Montserrat',sans-serif] selection:bg-orange-100 selection:text-[#C2410C] pb-14 md:pb-0">
       {/* Notificación sutil de prueba social */}
       <SocialProofTicker />
 

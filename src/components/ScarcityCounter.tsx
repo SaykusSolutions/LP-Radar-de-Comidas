@@ -38,16 +38,16 @@ export const ScarcityCounter: React.FC<ScarcityCounterProps> = ({ className = ''
 
   return (
     <div className={`mt-3 flex items-center justify-center sm:justify-start gap-2 ${className}`}>
-      <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFF5F2] border border-[#FADCD5] shadow-xs">
+      <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50/90 border border-amber-200/80 shadow-xs">
         <span className="relative flex h-2 w-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#D97757] opacity-75" />
-          <span className="relative inline-flex rounded-full h-2 w-2 bg-[#D97757]" />
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF5722] opacity-75" />
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF5722]" />
         </span>
-        <Flame className="w-3.5 h-3.5 text-[#D97757]" />
-        <span className="text-[11px] sm:text-xs font-bold text-[#8A3822]">
+        <Flame className="w-3.5 h-3.5 text-[#FF5722]" />
+        <span className="text-[11px] sm:text-xs font-bold text-amber-950">
           Solo{' '}
           <strong
-            className={`font-black text-[#D97757] inline-block transition-transform duration-300 ${
+            className={`font-black text-[#FF5722] inline-block transition-transform duration-300 ${
               isDecreasing ? 'scale-125 text-red-600' : 'scale-100'
             }`}
           >
