@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10&offDiscount=RADAR&bid=1793722168849";
 
 export const Navbar: React.FC = () => {
   return (
@@ -23,24 +23,11 @@ export const Navbar: React.FC = () => {
           </span>
         </a>
 
-        {/* Desktop Navigation Links */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-7 text-xs font-bold tracking-wide text-neutral-600">
-          <a href="#resolver" className="hover:text-neutral-900 transition-colors whitespace-nowrap">
-            Lo que resuelves
-          </a>
-          <a href="#como-funciona" className="hover:text-neutral-900 transition-colors whitespace-nowrap">
-            Cómo funciona
-          </a>
-          <a href="#bonos" className="hover:text-neutral-900 transition-colors whitespace-nowrap">
-            Bonos
-          </a>
-          <a href="#testimonios" className="hover:text-neutral-900 transition-colors whitespace-nowrap">
-            Opiniones
-          </a>
-          <a href="#faq" className="hover:text-neutral-900 transition-colors whitespace-nowrap">
-            Preguntas
-          </a>
-        </nav>
+        {/* Minimal Sales Letter Trust Note */}
+        <div className="hidden md:flex items-center gap-2 text-xs font-semibold text-neutral-500">
+          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+          <span>Asistente Interactivo de Cocina · Acceso Vitalicio</span>
+        </div>
 
         {/* Mobile-Friendly CTA Action (never overflows, high visual contrast) */}
         <div className="flex items-center gap-2 shrink-0">

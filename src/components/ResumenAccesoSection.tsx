@@ -3,7 +3,7 @@ import { ArrowRight, Lock, Sparkles, ShieldCheck } from 'lucide-react';
 import { ScarcityCounter } from './ScarcityCounter';
 import { TrustMicrocopy } from './TrustMicrocopy';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10&offDiscount=RADAR&bid=1793722168849";
 
 export const ResumenAccesoSection: React.FC = () => {
   const stackItems = [

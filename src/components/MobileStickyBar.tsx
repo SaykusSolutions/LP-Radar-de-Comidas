@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ShieldCheck } from 'lucide-react';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10&offDiscount=RADAR&bid=1793722168849";
 
 export const MobileStickyBar: React.FC = () => {
   const [show, setShow] = useState<boolean>(false);

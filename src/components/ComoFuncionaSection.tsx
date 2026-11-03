@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { ArrowRight, ChefHat, Clock, RefreshCw } from 'lucide-react';
 import { TrustMicrocopy } from './TrustMicrocopy';
 
-const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10";
+const HOTMART_URL = "https://pay.hotmart.com/L108133669Q?checkoutMode=10&offDiscount=RADAR&bid=1793722168849";
 
 interface MealRecipe {
   title: string;
