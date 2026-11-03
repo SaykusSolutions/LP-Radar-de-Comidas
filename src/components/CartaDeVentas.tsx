@@ -586,68 +586,103 @@ export const CartaDeVentas: React.FC = () => {
           {/* List of stacked tools */}
           <div className="divide-y divide-emerald-800/60 mb-6">
             <div className="py-3.5 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-sm sm:text-base font-bold text-white">
-                  Radar de Comidas (Mini-app interactiva vitalicia)
-                </p>
-                <p className="text-xs text-emerald-300/80">Genera 3 opciones con lo que tienes en segundos.</p>
+              <div className="flex items-center gap-3 min-w-0">
+                <img 
+                  src="/assets/aistudio/radar-de-comidas-explicativo_a86171f3.webp" 
+                  alt="Radar de Comidas" 
+                  className="w-12 h-12 rounded-xl object-cover bg-white/10 p-1 border border-emerald-400/30 shrink-0"
+                />
+                <div className="min-w-0">
+                  <p className="text-sm sm:text-base font-bold text-white">
+                    Radar de Comidas (Mini-app interactiva vitalicia)
+                  </p>
+                  <p className="text-xs text-emerald-300/80">Genera 3 opciones con lo que tienes en segundos.</p>
+                </div>
               </div>
-              <span className="text-sm sm:text-base font-bold text-emerald-100 tabular-nums">
+              <span className="text-sm sm:text-base font-bold text-emerald-100 tabular-nums shrink-0">
                 USD 29
               </span>
             </div>
 
             <div className="py-3.5 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
-                  <span>Bono 1: Generador Exprés de 10 Minutos</span>
-                  <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
-                </p>
-                <p className="text-xs text-emerald-300/80">Para días de cansancio extremo.</p>
+              <div className="flex items-center gap-3 min-w-0">
+                <img 
+                  src="/assets/aistudio/bono-plato-express-producto_c7fdae47.webp" 
+                  alt="Bono 1: Plato Exprés" 
+                  className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1 border border-emerald-400/30 shrink-0"
+                />
+                <div className="min-w-0">
+                  <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5 flex-wrap">
+                    <span>Bono 1: Plato Exprés</span>
+                    <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
+                  </p>
+                  <p className="text-xs text-emerald-300/80">Ideas y preparaciones ultra rápidas de 10 a 15 min para cuando llegas sin energía.</p>
+                </div>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs line-through text-emerald-400/50 block">USD 12</span>
                 <span className="text-xs font-black text-amber-300">HOY $0</span>
               </div>
             </div>
 
             <div className="py-3.5 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
-                  <span>Bono 2: Calculadora de Rescate de Sobras</span>
-                  <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
-                </p>
-                <p className="text-xs text-emerald-300/80">Convierte comida del día anterior en un plato nuevo.</p>
+              <div className="flex items-center gap-3 min-w-0">
+                <img 
+                  src="/assets/aistudio/bono-lista-breve-producto_57279b5e.webp" 
+                  alt="Bono 2: Lista Breve" 
+                  className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1 border border-emerald-400/30 shrink-0"
+                />
+                <div className="min-w-0">
+                  <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5 flex-wrap">
+                    <span>Bono 2: Lista Breve</span>
+                    <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
+                  </p>
+                  <p className="text-xs text-emerald-300/80">La lista mínima de compras para tener lo básico sin gastar de más ni tirar comida.</p>
+                </div>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs line-through text-emerald-400/50 block">USD 10</span>
                 <span className="text-xs font-black text-amber-300">HOY $0</span>
               </div>
             </div>
 
             <div className="py-3.5 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
-                  <span>Bono 3: Simulador de Sustitutos de Cocina</span>
-                  <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
-                </p>
-                <p className="text-xs text-emerald-300/80">Reemplaza ingredientes faltantes al instante.</p>
+              <div className="flex items-center gap-3 min-w-0">
+                <img 
+                  src="/assets/aistudio/bono-sustituidor-producto_52e4bb4d.webp" 
+                  alt="Bono 3: Sustituidor de Ingredientes" 
+                  className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1 border border-emerald-400/30 shrink-0"
+                />
+                <div className="min-w-0">
+                  <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5 flex-wrap">
+                    <span>Bono 3: Sustituidor de Ingredientes</span>
+                    <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
+                  </p>
+                  <p className="text-xs text-emerald-300/80">Reemplaza al instante cualquier ingrediente faltante con lo que ya tienes a mano.</p>
+                </div>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs line-through text-emerald-400/50 block">USD 9</span>
                 <span className="text-xs font-black text-amber-300">HOY $0</span>
               </div>
             </div>
 
             <div className="py-3.5 flex items-center justify-between gap-3">
-              <div>
-                <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5">
-                  <span>Bono 4: Checklist Interactivo de Despensa Base</span>
-                  <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
-                </p>
-                <p className="text-xs text-emerald-300/80">Lista mínima para no gastar de más en el súper.</p>
+              <div className="flex items-center gap-3 min-w-0">
+                <img 
+                  src="/assets/aistudio/bono-reinicio-amable-producto_60ae48bf.webp" 
+                  alt="Bono 4: Reinicio Amable" 
+                  className="w-12 h-12 rounded-xl object-contain bg-white/10 p-1 border border-emerald-400/30 shrink-0"
+                />
+                <div className="min-w-0">
+                  <p className="text-sm sm:text-base font-bold text-white flex items-center gap-1.5 flex-wrap">
+                    <span>Bono 4: Reinicio Amable</span>
+                    <span className="text-[9px] bg-amber-400 text-amber-950 font-black px-1.5 py-0.2 rounded">GRATIS</span>
+                  </p>
+                  <p className="text-xs text-emerald-300/80">Retoma el orden culinario sin dietas estrictas ni culpa tras días caóticos.</p>
+                </div>
               </div>
-              <div className="text-right">
+              <div className="text-right shrink-0">
                 <span className="text-xs line-through text-emerald-400/50 block">USD 7</span>
                 <span className="text-xs font-black text-amber-300">HOY $0</span>
               </div>
@@ -815,7 +850,7 @@ export const CartaDeVentas: React.FC = () => {
         {/* 14. Classical Sales Letter P.D. (Postdata) */}
         <footer className="space-y-3 text-xs sm:text-sm text-neutral-600 border-t border-neutral-200 pt-8">
           <p>
-            <strong>P.D. 1:</strong> Si decides actuar hoy, no solo recibes Radar de Comidas para toda la vida, sino también los 4 bonos interactivos (Generador Exprés, Calculadora de Sobras, Simulador de Sustitutos y Checklist de Despensa) por un pago único de <strong>$4,99 USD</strong>.
+            <strong>P.D. 1:</strong> Si decides actuar hoy, no solo recibes Radar de Comidas para toda la vida, sino también los 4 bonos interactivos (Plato Exprés, Lista Breve, Sustituidor de Ingredientes y Reinicio Amable) por un pago único de <strong>$4,99 USD</strong>.
           </p>
           <p>
             <strong>P.D. 2:</strong> Recuerda que estás protegida con nuestra garantía incondicional de 7 días respaldada por Hotmart. Si no te resuelve las cenas, pides tu dinero de vuelta con un solo clic. Cero riesgo para ti.

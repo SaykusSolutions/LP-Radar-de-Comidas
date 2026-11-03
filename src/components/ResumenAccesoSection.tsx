@@ -14,25 +14,25 @@ export const ResumenAccesoSection: React.FC = () => {
       image: "/assets/aistudio/radar-de-comidas-explicativo_a86171f3.webp" 
     },
     { 
-      title: "Bono 1: Generador Exprés de 10 Minutos", 
+      title: "Bono 1: Plato Express", 
       price: "USD 12", 
       isGift: true,
       image: "/assets/aistudio/bono-plato-express-producto_c7fdae47.webp" 
     },
     { 
-      title: "Bono 2: Calculadora de Rescate de Sobras", 
+      title: "Bono 2: Lista Breve", 
       price: "USD 10", 
-      isGift: true,
-      image: "/assets/aistudio/bono-sustituidor-producto_52e4bb4d.webp" 
-    },
-    { 
-      title: "Bono 3: Simulador de Sustitutos de Cocina", 
-      price: "USD 9", 
       isGift: true,
       image: "/assets/aistudio/bono-lista-breve-producto_57279b5e.webp" 
     },
     { 
-      title: "Bono 4: Checklist Interactivo de Despensa Base", 
+      title: "Bono 3: Sustituidor de Ingredientes", 
+      price: "USD 9", 
+      isGift: true,
+      image: "/assets/aistudio/bono-sustituidor-producto_52e4bb4d.webp" 
+    },
+    { 
+      title: "Bono 4: Reinicio Amable", 
       price: "USD 7", 
       isGift: true,
       image: "/assets/aistudio/bono-reinicio-amable-producto_60ae48bf.webp" 
